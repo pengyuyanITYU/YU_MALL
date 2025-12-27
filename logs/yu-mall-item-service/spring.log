@@ -1,0 +1,1039 @@
+15:01:18:320  INFO 42148 --- [main] com.yu.item.ItemApplication              : No active profile set, falling back to 1 default profile: "default"
+15:01:19:312  INFO 42148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:01:19:315  INFO 42148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:01:19:344  INFO 42148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15:01:19:600  INFO 42148 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0bf87331-8057-38a3-a7f2-0e97f9311628
+15:01:19:656  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:656  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:656  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:687  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:690  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:691  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:691  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$582/0x00000008405c9840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:693  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:696  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:698  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:19:700  INFO 42148 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:01:19:753  INFO 42148 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:01:19:758  INFO 42148 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:01:19:816  INFO 42148 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:01:19:889  INFO 42148 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:01:20:010  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 94fd9b77-15e9-47f0-8786-3f3bfc392645
+15:01:20:010  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] RpcClient init label, labels = {module=naming, source=sdk}
+15:01:20:013  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:01:20:013  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:01:20:013  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:01:20:014  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:01:20:149  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766818881933_192.168.100.1_50121
+15:01:20:149  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:20:149  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:01:20:149  INFO 42148 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Notify connected event to listeners.
+15:01:20:183  INFO 42148 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:01:20:705  INFO 42148 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Receive server push request, request = NotifySubscriberRequest, requestId = 144
+15:01:20:709  INFO 42148 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [94fd9b77-15e9-47f0-8786-3f3bfc392645] Ack server push request, request = NotifySubscriberRequest, requestId = 144
+15:01:20:881  INFO 42148 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.100.128:8099,msg:< RegisterTMRequest{applicationId='yu-mall-item-service', transactionServiceGroup='mall'} >
+15:01:21:755  INFO 42148 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xf0e1e1ac, L:/192.168.100.1:54746 - R:/192.168.100.128:8099]
+15:01:21:760  INFO 42148 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 52 ms, version:1.5.2,role:TMROLE,channel:[id: 0xf0e1e1ac, L:/192.168.100.1:54746 - R:/192.168.100.128:8099]
+15:01:21:760  INFO 42148 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[yu-mall-item-service] txServiceGroup[mall]
+15:01:21:769  INFO 42148 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:01:21:770  INFO 42148 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:01:21:776  INFO 42148 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:01:21:776  INFO 42148 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[yu-mall-item-service] txServiceGroup[mall]
+15:01:21:776  INFO 42148 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:01:21:778  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:21:858  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:21:861  INFO 42148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:01:22:154  INFO 42148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+15:01:22:166  INFO 42148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:01:22:166  INFO 42148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:01:22:340  INFO 42148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:01:22:341  INFO 42148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4003 ms
+15:01:22:533  INFO 42148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:01:22:656  INFO 42148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:01:22:712  INFO 42148 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:01:22:712  INFO 42148 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.100.128:3307/mall-item
+15:01:22:713  INFO 42148 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.100.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.100.128:3307/mall-item', applicationId='yu-mall-item-service', transactionServiceGroup='mall'} >
+15:01:22:721  INFO 42148 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xe9e2f5a8, L:/192.168.100.1:50315 - R:/192.168.100.128:8099]
+15:01:22:721  INFO 42148 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 6 ms, version:1.5.2,role:RMROLE,channel:[id: 0xe9e2f5a8, L:/192.168.100.1:50315 - R:/192.168.100.128:8099]
+15:01:25:537  INFO 42148 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 92e3a8d2-259c-471c-812d-bd6a1d2e8dc2
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] RpcClient init label, labels = {module=naming, source=sdk}
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:01:27:173  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:01:27:298  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766818889092_192.168.100.1_53908
+15:01:27:298  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:01:27:298  INFO 42148 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Notify connected event to listeners.
+15:01:27:298  INFO 42148 --- [main] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:01:27:323  INFO 42148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+15:01:27:333  INFO 42148 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-item-service 192.168.100.1:8081 register finished
+15:01:27:826  INFO 42148 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Receive server push request, request = NotifySubscriberRequest, requestId = 145
+15:01:27:828  INFO 42148 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [92e3a8d2-259c-471c-812d-bd6a1d2e8dc2] Ack server push request, request = NotifySubscriberRequest, requestId = 145
+15:01:28:338  INFO 42148 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:01:28:341  INFO 42148 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:01:28:366  INFO 42148 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:01:28:492  INFO 42148 --- [main] com.yu.item.ItemApplication              : Started ItemApplication in 18.549 seconds (JVM running for 20.143)
+15:01:28:501  INFO 42148 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-item-service, group=DEFAULT_GROUP
+15:01:28:502  INFO 42148 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-item-service.yaml, group=DEFAULT_GROUP
+15:26:36:501  WARN 42148 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:26:36:501  WARN 42148 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:26:36:501  WARN 42148 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:26:36:504  WARN 42148 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:26:37:933  INFO 42148 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:26:37:941  INFO 42148 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:26:38:264  INFO 42148 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:26:38:265  INFO 42148 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@266da0e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:26:38:265  INFO 42148 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1766818889092_192.168.100.1_53908
+15:26:38:267  INFO 42148 --- [nacos-grpc-client-executor-311] c.a.n.c.remote.client.grpc.GrpcClient    : [1766818889092_192.168.100.1_53908]Ignore complete event,isRunning:false,isAbandon=false
+15:26:38:271  INFO 42148 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3ba155e2[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 312]
+15:26:38:275  INFO 42148 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:26:38:286  INFO 42148 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:26:38:288  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]
+15:26:38:289  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]
+15:26:38:289  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]
+15:26:38:289  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]
+15:26:38:289  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]) will closed
+15:26:38:290  INFO 42148 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xe9e2f5a8, L:/192.168.100.1:50315 ! R:/192.168.100.128:8099]) will closed
+15:42:59:564  INFO 43728 --- [main] com.yu.item.ItemApplication              : No active profile set, falling back to 1 default profile: "default"
+15:43:00:489  INFO 43728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:43:00:495  INFO 43728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:43:00:532  INFO 43728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+15:43:00:836  INFO 43728 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0bf87331-8057-38a3-a7f2-0e97f9311628
+15:43:00:903  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:904  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:904  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:939  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:942  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:944  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:945  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$582/0x00000008405dc840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:945  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:948  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:950  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:00:952  INFO 43728 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:43:01:002  INFO 43728 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:43:01:006  INFO 43728 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:43:01:059  INFO 43728 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:43:01:138  INFO 43728 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:43:01:278  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00
+15:43:01:278  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] RpcClient init label, labels = {module=naming, source=sdk}
+15:43:01:280  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:43:01:281  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:43:01:281  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:43:01:281  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:43:01:416  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766821383218_192.168.100.1_62602
+15:43:01:417  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:43:01:417  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x000000084046f440
+15:43:01:417  INFO 43728 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Notify connected event to listeners.
+15:43:01:461  INFO 43728 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:43:01:967  INFO 43728 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Receive server push request, request = NotifySubscriberRequest, requestId = 160
+15:43:01:970  INFO 43728 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [ba16f23e-2ed8-48dc-9bfe-c30f0be2ec00] Ack server push request, request = NotifySubscriberRequest, requestId = 160
+15:43:02:514  INFO 43728 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.100.128:8099,msg:< RegisterTMRequest{applicationId='yu-mall-item-service', transactionServiceGroup='mall'} >
+15:43:03:629  INFO 43728 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x7f1e3451, L:/192.168.100.1:60701 - R:/192.168.100.128:8099]
+15:43:03:634  INFO 43728 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 66 ms, version:1.5.2,role:TMROLE,channel:[id: 0x7f1e3451, L:/192.168.100.1:60701 - R:/192.168.100.128:8099]
+15:43:03:635  INFO 43728 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[yu-mall-item-service] txServiceGroup[mall]
+15:43:03:644  INFO 43728 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:43:03:645  INFO 43728 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:43:03:652  INFO 43728 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:43:03:653  INFO 43728 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[yu-mall-item-service] txServiceGroup[mall]
+15:43:03:653  INFO 43728 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:43:03:654  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:03:732  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:03:735  INFO 43728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:43:03:997  INFO 43728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+15:43:04:010  INFO 43728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:43:04:010  INFO 43728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:43:04:220  INFO 43728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:43:04:220  INFO 43728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4642 ms
+15:43:04:423  INFO 43728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:43:04:534  INFO 43728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:43:04:594  INFO 43728 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:43:04:594  INFO 43728 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.100.128:3307/mall-item
+15:43:04:594  INFO 43728 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.100.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.100.128:3307/mall-item', applicationId='yu-mall-item-service', transactionServiceGroup='mall'} >
+15:43:04:603  INFO 43728 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xf224eedc, L:/192.168.100.1:51200 - R:/192.168.100.128:8099]
+15:43:04:603  INFO 43728 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 6 ms, version:1.5.2,role:RMROLE,channel:[id: 0xf224eedc, L:/192.168.100.1:51200 - R:/192.168.100.128:8099]
+15:43:07:598  INFO 43728 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:43:09:158  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4861d336-38e3-4b8c-9252-8f905a661e9e
+15:43:09:158  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] RpcClient init label, labels = {module=naming, source=sdk}
+15:43:09:158  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:43:09:158  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:43:09:159  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:43:09:159  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:43:09:290  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766821391095_192.168.100.1_58670
+15:43:09:290  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:43:09:290  INFO 43728 --- [main] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x000000084046f440
+15:43:09:290  INFO 43728 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Notify connected event to listeners.
+15:43:09:309  INFO 43728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+15:43:09:317  INFO 43728 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-item-service 192.168.100.1:8081 register finished
+15:43:09:884  INFO 43728 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Receive server push request, request = NotifySubscriberRequest, requestId = 165
+15:43:09:886  INFO 43728 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4861d336-38e3-4b8c-9252-8f905a661e9e] Ack server push request, request = NotifySubscriberRequest, requestId = 165
+15:43:09:937  INFO 43728 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:43:09:940  INFO 43728 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:43:09:961  INFO 43728 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:43:10:051  INFO 43728 --- [main] com.yu.item.ItemApplication              : Started ItemApplication in 18.725 seconds (JVM running for 20.3)
+15:43:10:057  INFO 43728 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-item-service, group=DEFAULT_GROUP
+15:43:10:058  INFO 43728 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-item-service.yaml, group=DEFAULT_GROUP
+15:54:43:028  INFO 43728 --- [http-nio-8081-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_a1ff8825baa73c3a78eb96aa40325abc=1765169191,1765192038,1765200045,1765247132] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:54:43:039  INFO 43728 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:54:43:039  INFO 43728 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:54:43:040  INFO 43728 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+15:54:43:108  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+15:54:43:219 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:54:43:241 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:54:43:269 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:54:43:274 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+15:54:43:274 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+15:54:43:338 ERROR 43728 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'original_price' in 'field list'
+### The error may exist in com/yu/item/mapper/ItemMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand  FROM item     WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'original_price' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'original_price' in 'field list'] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown column 'original_price' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59) ~[mybatis-3.5.10.jar:3.5.10]
+	at com.sun.proxy.$Proxy142.execute(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79) ~[mybatis-3.5.10.jar:3.5.10]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64) ~[mybatis-3.5.10.jar:3.5.10]
+	at com.sun.proxy.$Proxy141.query(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.10.jar:3.5.10]
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81) ~[mybatis-plus-extension-3.5.3.1.jar:3.5.3.1]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62) ~[mybatis-3.5.10.jar:3.5.10]
+	at com.sun.proxy.$Proxy140.query(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145) ~[mybatis-3.5.10.jar:3.5.10]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.10.jar:3.5.10]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at com.sun.proxy.$Proxy109.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForIPage(MybatisMapperMethod.java:121) ~[mybatis-plus-core-3.5.3.1.jar:3.5.3.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:85) ~[mybatis-plus-core-3.5.3.1.jar:3.5.3.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148) ~[mybatis-plus-core-3.5.3.1.jar:3.5.3.1]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89) ~[mybatis-plus-core-3.5.3.1.jar:3.5.3.1]
+	at com.sun.proxy.$Proxy110.selectPage(Unknown Source) ~[na:na]
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.lambda$page$d12b405a$1(ChainQuery.java:86) ~[mybatis-plus-extension-3.5.3.1.jar:3.5.3.1]
+	at com.baomidou.mybatisplus.extension.conditions.ChainWrapper.execute(ChainWrapper.java:63) ~[mybatis-plus-extension-3.5.3.1.jar:3.5.3.1]
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.page(ChainQuery.java:86) ~[mybatis-plus-extension-3.5.3.1.jar:3.5.3.1]
+	at com.yu.item.service.impl.ItemServiceImpl.listItem(ItemServiceImpl.java:50) ~[classes/:na]
+	at com.yu.item.service.impl.ItemServiceImpl$$FastClassBySpringCGLIB$$63805203.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.yu.item.service.impl.ItemServiceImpl$$EnhancerBySpringCGLIB$$41c99971.listItem(<generated>) ~[classes/:na]
+	at com.yu.item.controller.ItemController.list(ItemController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+15:56:53:096  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+15:56:53:101 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:56:53:101 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:56:53:103 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:56:53:103 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+15:56:53:103 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+15:56:53:110 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+15:57:02:689  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+15:57:02:694 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+15:57:02:695 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+15:57:02:696 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+15:57:02:698 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+15:57:02:698 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+15:57:02:702 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+15:57:05:972  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+15:57:05:973 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:57:05:974 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+15:57:05:975 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:57:05:979 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:57:05:979 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+15:57:05:984 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:57:05:986 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:57:05:986 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+15:57:05:989 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+15:57:07:638  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+15:57:07:640 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:57:07:640 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+15:57:07:642 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:57:07:643 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:57:07:644 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+15:57:07:645 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:57:07:646 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:57:07:646 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+15:57:07:647 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+15:59:34:566  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+15:59:34:570 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+15:59:34:570 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+15:59:34:572 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+15:59:34:574 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+15:59:34:574 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+15:59:34:575 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+15:59:34:577 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+15:59:34:577 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+15:59:34:579 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+15:59:34:660  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+15:59:34:661  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+15:59:34:662 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:34:663 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:34:663 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+15:59:34:663 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+15:59:34:665 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:34:665 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:34:666 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:34:666 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+15:59:34:666 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:34:667 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+15:59:34:668 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:34:668 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:34:669 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:34:669 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:34:670 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+15:59:34:670 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+15:59:34:671 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+15:59:34:671 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+15:59:34:684  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+15:59:34:684 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:34:684 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+15:59:34:685 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:34:686 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:34:686 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+15:59:34:687 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:34:690 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:34:690 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+15:59:34:691 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+15:59:47:639  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+15:59:47:640 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+15:59:47:641 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+15:59:47:642 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+15:59:47:644 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+15:59:47:644 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+15:59:47:646 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+15:59:47:647 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+15:59:47:647 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+15:59:47:648 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+15:59:47:661  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+15:59:47:661  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+15:59:47:661 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:47:662 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+15:59:47:662 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:47:662 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+15:59:47:663 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:47:664 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:47:664 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:47:664 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+15:59:47:665 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:47:665 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:47:665 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+15:59:47:666 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:47:666 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:47:666 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+15:59:47:666 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:47:667 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+15:59:47:667 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+15:59:47:667 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+15:59:47:677  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+15:59:47:677 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+15:59:47:677 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+15:59:47:678 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+15:59:47:679 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+15:59:47:679 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+15:59:47:680 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+15:59:47:681 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+15:59:47:682 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+15:59:47:682 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:03:38:080  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:03:38:080 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:03:38:081 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:03:38:083 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:03:38:085 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:03:38:085 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:03:38:087 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:03:38:087 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:03:38:087 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:03:38:089 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:03:38:105  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:03:38:106  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:03:38:106 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:03:38:107 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:03:38:107 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:03:38:107 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:03:38:108 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:03:38:108 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:03:38:110 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:03:38:111 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:03:38:111 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:03:38:111 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:03:38:113 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:03:38:113 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:03:38:114 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:03:38:114 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:03:38:115 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:03:38:115 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:03:38:116 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:03:38:116 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:03:38:126  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:03:38:126 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:03:38:126 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:03:38:127 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:03:38:129 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:03:38:129 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:03:38:131 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:03:38:133 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:03:38:134 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:03:38:135 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:03:43:269  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+16:03:43:269 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:03:43:269 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+16:03:43:271 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:03:43:273 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:03:43:273 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+16:03:43:274 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:03:43:274 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:03:43:274 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+16:03:43:275 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:03:46:792  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+16:03:46:792 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:03:46:793 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+16:03:46:794 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:03:46:796 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:03:46:796 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+16:03:46:797 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:03:46:798 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:03:46:798 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+16:03:46:799 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:02:588  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+16:04:02:588 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:02:588 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+16:04:02:589 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:02:590 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:02:590 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+16:04:02:591 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:02:595 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:02:596 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+16:04:02:597 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:04:045  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:04:04:049 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:04:04:049 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:04:04:050 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:04:04:051 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:04:04:051 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:04:04:053 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:04:06:157  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品详情2
+16:04:06:158 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:06:158 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 2(Long)
+16:04:06:159 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:06:160 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:06:160 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 2(Long)
+16:04:06:161 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:06:162 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:06:163 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 2(Long)
+16:04:06:164 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:06:195  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[2]
+16:04:06:196 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? )
+16:04:06:196 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 2(Long)
+16:04:06:197 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 1
+16:04:06:198 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?))
+16:04:06:198 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 2(Long)
+16:04:06:199 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:06:201 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?))
+16:04:06:201 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 2(Long)
+16:04:06:202 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:08:225  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行查询商品详情2
+16:04:08:226 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:08:227 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 2(Long)
+16:04:08:228 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:08:229 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:08:229 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 2(Long)
+16:04:08:230 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:08:231 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:08:231 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 2(Long)
+16:04:08:232 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:16:586  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:04:16:587 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:04:16:587 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:04:16:588 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:04:16:589 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:04:16:589 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:04:16:591 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:04:16:592 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:04:16:592 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:04:16:594 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:04:16:607  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:04:16:607  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:04:16:608 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:16:608 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:04:16:609 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:16:609 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:04:16:609 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:16:609 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:16:610 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:16:610 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:16:611 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:04:16:611 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:04:16:612 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:16:612 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:16:614 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:16:614 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:16:614 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:04:16:614 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:04:16:615 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:04:16:615 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:04:16:626  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:04:16:626 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:04:16:626 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:04:16:628 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:04:16:629 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:04:16:629 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:04:16:631 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:04:16:632 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:04:16:632 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:04:16:633 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:10:38:363  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:10:38:366 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:10:38:366 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:10:38:367 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:10:38:367 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:10:38:368 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:10:38:369 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:10:46:674  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:10:46:677 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:10:46:678 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:10:46:679 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:10:46:680 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:10:46:680 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:10:46:682 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:10:50:761  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品详情7
+16:10:50:762 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:10:50:762 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 7(Long)
+16:10:50:763 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:10:50:765 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:10:50:765 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 7(Long)
+16:10:50:765 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:10:50:767 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:10:50:767 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 7(Long)
+16:10:50:768 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:10:52:954  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情7
+16:10:52:955 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:10:52:956 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 7(Long)
+16:10:52:958 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:10:52:959 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:10:52:959 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 7(Long)
+16:10:52:960 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:10:52:962 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:10:52:962 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 7(Long)
+16:10:52:963 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:10:55:632  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:10:55:635 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:10:55:635 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:10:55:636 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:10:55:637 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:10:55:637 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:10:55:640 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:10:58:899  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:10:58:900 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:10:58:900 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:10:58:901 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:10:58:903 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:10:58:903 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:10:58:904 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:10:58:905 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:10:58:905 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:10:58:907 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:10:58:926  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:10:58:927  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:10:58:927 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:10:58:927 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:10:58:927 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:10:58:927 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:10:58:929 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:10:58:929 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:10:58:930 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:10:58:930 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:10:58:930 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:10:58:930 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:10:58:931 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:10:58:931 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:10:58:932 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:10:58:932 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:10:58:932 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:10:58:932 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:10:58:934 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:10:58:934 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:10:58:940  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:10:58:941 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:10:58:941 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:10:58:942 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:10:58:943 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:10:58:943 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:10:58:944 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:10:58:945 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:10:58:945 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:10:58:946 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:15:33:263  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情8
+16:15:33:263 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:33:264 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 8(Long)
+16:15:33:265 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:33:266 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:33:266 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 8(Long)
+16:15:33:269 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:33:271 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:33:271 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 8(Long)
+16:15:33:272 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:15:33:284  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情9
+16:15:33:284 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:33:284 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 9(Long)
+16:15:33:285 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:33:287 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:33:287 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 9(Long)
+16:15:33:287 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:33:289 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:33:290 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 9(Long)
+16:15:33:290 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:15:33:295  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情4
+16:15:33:295 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:33:295 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 4(Long)
+16:15:33:297 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:33:298 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:33:298 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 4(Long)
+16:15:33:299 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:33:300 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:33:300 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 4(Long)
+16:15:33:301 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:15:33:305  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行查询商品详情2
+16:15:33:306 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:33:306 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 2(Long)
+16:15:33:307 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:33:308 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:33:308 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 2(Long)
+16:15:33:309 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:33:310 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:33:310 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 2(Long)
+16:15:33:311 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:15:33:316  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情7
+16:15:33:316 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:33:316 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 7(Long)
+16:15:33:317 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:33:318 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:33:318 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 7(Long)
+16:15:33:318 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:33:320 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:33:320 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 7(Long)
+16:15:33:321 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:15:54:131  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:15:54:132 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:15:54:132 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:15:54:133 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:15:54:134 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:15:54:135 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:15:54:135 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:15:54:136 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:15:54:136 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:15:54:137 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:15:54:176  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:15:54:176 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:54:176 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:15:54:177  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:15:54:178 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:54:182 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:54:182 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:15:54:183 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:54:183 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:15:54:183 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:54:183 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:54:184 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:54:184 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:15:54:184 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:54:184 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:15:54:185 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:54:185 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:15:54:186 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:54:186 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:15:54:187 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:15:54:197  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:15:54:197 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:15:54:197 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:15:54:198 DEBUG 43728 --- [http-nio-8081-exec-9] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:15:54:200 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:15:54:200 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:15:54:201 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:15:54:202 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:15:54:203 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:15:54:204 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:00:160  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:16:00:160 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:16:00:161 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:16:00:163 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:16:00:165 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:16:00:165 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:16:00:165 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:16:00:167 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:16:00:167 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:16:00:168 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:16:00:182  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:16:00:182  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:00:182 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:00:182 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:16:00:183 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:00:183 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:00:183 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:00:183 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:00:184 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:00:184 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:00:184 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:16:00:184 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:00:185 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:00:185 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:00:187 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:00:187 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:00:187 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:00:187 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:16:00:188 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:00:188 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:16:00:197  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:00:198 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:00:198 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:00:199 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:00:200 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:00:200 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:00:202 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:00:202 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:00:203 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:00:204 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:04:774  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 10]
+16:16:04:774 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? )
+16:16:04:774 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 10(Long)
+16:16:04:776 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 2
+16:16:04:777 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?))
+16:16:04:778 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 10(Long)
+16:16:04:778 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 2
+16:16:04:780 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?))
+16:16:04:780 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 10(Long)
+16:16:04:781 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 3
+16:16:04:797  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:04:797  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:16:04:797 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:04:797 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:04:798 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:04:798 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:16:04:799 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:04:799 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:04:800 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:04:800 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:04:800 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:04:800 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:16:04:801 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:04:801 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:04:802 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:04:802 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:04:802 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:04:802 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:16:04:803 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:04:803 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:16:04:812  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:04:812 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:04:812 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:04:813 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:04:815 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:04:815 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:04:816 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:04:817 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:04:818 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:04:819 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:58:191  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 8, 10]
+16:16:58:192 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? , ? )
+16:16:58:192 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:16:58:193 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 3
+16:16:58:195 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?,?))
+16:16:58:195 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:16:58:196 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 3
+16:16:58:197 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?,?))
+16:16:58:198 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:16:58:199 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 4
+16:16:58:212  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情8
+16:16:58:212  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:58:212 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:58:213 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 8(Long)
+16:16:58:213 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:58:213 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:58:213  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:16:58:213 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:58:215 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:58:215 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:58:215 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:16:58:216 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:58:216 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:58:216 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:58:216 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 8(Long)
+16:16:58:218 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:58:218 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:58:218 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 8(Long)
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:58:219 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:16:58:220 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:16:58:220 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:16:58:220 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:58:220 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:58:221 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:16:58:222 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:16:58:227  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:16:58:227 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:16:58:227 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:16:58:228 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:16:58:229 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:16:58:229 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:16:58:230 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:16:58:231 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:16:58:231 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:16:58:232 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:06:359  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 8, 10]
+16:17:06:360 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? , ? )
+16:17:06:360 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:06:362 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 3
+16:17:06:363 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?,?))
+16:17:06:363 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:06:364 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 3
+16:17:06:364 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?,?))
+16:17:06:364 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:06:365 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 4
+16:17:06:376  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:17:06:376  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情8
+16:17:06:376 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:06:376  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:17:06:376 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 8(Long)
+16:17:06:376 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:06:376 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:17:06:377 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:06:377 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:17:06:378 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 8(Long)
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:06:379 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:17:06:380 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 8(Long)
+16:17:06:380 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:17:06:381 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:06:381 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:17:06:381 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:17:06:389  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:17:06:389 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:06:390 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:17:06:391 DEBUG 43728 --- [http-nio-8081-exec-8] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:06:392 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:06:392 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:17:06:394 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:06:395 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:06:395 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:17:06:396 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:09:248  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行批量查询商品详情[5, 8, 10]
+16:17:09:249 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id IN ( ? , ? , ? )
+16:17:09:250 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:09:250 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemMapper.selectBatchIds   : <==      Total: 3
+16:17:09:252 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id IN (?,?,?))
+16:17:09:252 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:09:254 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 3
+16:17:09:254 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id IN (?,?,?))
+16:17:09:255 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long), 8(Long), 10(Long)
+16:17:09:255 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 4
+16:17:09:268  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品详情8
+16:17:09:268  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品详情5
+16:17:09:268  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:17:09:268 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:09:268 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 5(Long)
+16:17:09:269 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:09:269 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:09:269 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:17:09:269 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 8(Long)
+16:17:09:269 DEBUG 43728 --- [http-nio-8081-exec-2] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:09:270 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:09:270 DEBUG 43728 --- [http-nio-8081-exec-10] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:09:270 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 5(Long)
+16:17:09:270 DEBUG 43728 --- [http-nio-8081-exec-1] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:09:271 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:09:271 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:09:271 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:17:09:271 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:09:271 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 8(Long)
+16:17:09:272 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:09:272 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 5(Long)
+16:17:09:272 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:09:272 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:09:272 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 8(Long)
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 1
+16:17:09:273 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:09:280  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品详情10
+16:17:09:280 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:09:280 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 10(Long)
+16:17:09:281 DEBUG 43728 --- [http-nio-8081-exec-4] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:09:282 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:09:283 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 10(Long)
+16:17:09:283 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:09:285 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:09:285 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 10(Long)
+16:17:09:286 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:13:425  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:17:13:429 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:17:13:429 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:17:13:430 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:13:430 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:17:13:431 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:17:13:433 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:17:14:254  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:17:14:258 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:17:14:258 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:17:14:259 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:14:260 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:17:14:260 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:17:14:262 DEBUG 43728 --- [http-nio-8081-exec-7] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:17:16:083  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品详情7
+16:17:16:085 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE id=?
+16:17:16:085 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : ==> Parameters: 7(Long)
+16:17:16:087 DEBUG 43728 --- [http-nio-8081-exec-3] c.yu.item.mapper.ItemMapper.selectById   : <==      Total: 1
+16:17:16:087 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==>  Preparing: SELECT id,item_id,banner_images,detail_html,spec_template,video_url FROM item_detail WHERE (item_id = ?)
+16:17:16:087 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : ==> Parameters: 7(Long)
+16:17:16:089 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemDetailMapper.selectList      : <==      Total: 1
+16:17:16:089 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==>  Preparing: SELECT id,item_id,specs,price,stock,image FROM item_sku WHERE (item_id = ?)
+16:17:16:090 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : ==> Parameters: 7(Long)
+16:17:16:091 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.mapper.ItemSkuMapper.selectList    : <==      Total: 2
+16:17:19:520  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:17:19:522 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:17:19:522 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:17:19:523 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:19:524 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:17:19:524 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:17:19:526 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:17:20:831  INFO 43728 --- [http-nio-8081-exec-8] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=数码, category=, brand=, minPrice=null, maxPrice=null)
+16:17:20:842 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ?)
+16:17:20:842 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %数码%(String)
+16:17:20:843 DEBUG 43728 --- [http-nio-8081-exec-8] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:21:805  INFO 43728 --- [http-nio-8081-exec-9] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=居家, category=, brand=, minPrice=null, maxPrice=null)
+16:17:21:814 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ?)
+16:17:21:815 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %居家%(String)
+16:17:21:816 DEBUG 43728 --- [http-nio-8081-exec-9] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:22:364  INFO 43728 --- [http-nio-8081-exec-2] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=奢品, category=, brand=, minPrice=null, maxPrice=null)
+16:17:22:367 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ?)
+16:17:22:367 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %奢品%(String)
+16:17:22:368 DEBUG 43728 --- [http-nio-8081-exec-2] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:24:813  INFO 43728 --- [http-nio-8081-exec-1] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=奢品, category=家电, brand=, minPrice=null, maxPrice=null)
+16:17:24:817 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ? AND category = ?)
+16:17:24:818 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %奢品%(String), 家电(String)
+16:17:24:845 DEBUG 43728 --- [http-nio-8081-exec-1] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:25:212  INFO 43728 --- [http-nio-8081-exec-10] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=奢品, category=数码, brand=, minPrice=null, maxPrice=null)
+16:17:25:214 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ? AND category = ?)
+16:17:25:215 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %奢品%(String), 数码(String)
+16:17:25:216 DEBUG 43728 --- [http-nio-8081-exec-10] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:25:638  INFO 43728 --- [http-nio-8081-exec-4] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=奢品, category=食品, brand=, minPrice=null, maxPrice=null)
+16:17:25:640 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND name LIKE ? AND category = ?)
+16:17:25:641 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), %奢品%(String), 食品(String)
+16:17:25:642 DEBUG 43728 --- [http-nio-8081-exec-4] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:26:426  INFO 43728 --- [http-nio-8081-exec-6] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:17:26:429 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:17:26:429 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:17:26:431 DEBUG 43728 --- [http-nio-8081-exec-6] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:26:431 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:17:26:431 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:17:26:432 DEBUG 43728 --- [http-nio-8081-exec-6] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9
+16:17:28:054  INFO 43728 --- [http-nio-8081-exec-7] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=母婴, brand=, minPrice=null, maxPrice=null)
+16:17:28:056 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND category = ?)
+16:17:28:057 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), 母婴(String)
+16:17:28:057 DEBUG 43728 --- [http-nio-8081-exec-7] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:28:630  INFO 43728 --- [http-nio-8081-exec-3] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=服装, brand=, minPrice=null, maxPrice=null)
+16:17:28:632 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ? AND category = ?)
+16:17:28:633 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer), 服装(String)
+16:17:28:636 DEBUG 43728 --- [http-nio-8081-exec-3] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:29:949  INFO 43728 --- [http-nio-8081-exec-5] com.yu.item.controller.ItemController    : 开始执行查询商品列表ItemPageQuery(name=, category=, brand=, minPrice=null, maxPrice=null)
+16:17:29:951 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+16:17:29:952 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+16:17:29:953 DEBUG 43728 --- [http-nio-8081-exec-5] c.y.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+16:17:29:954 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : ==>  Preparing: SELECT id,name,sub_title,image,price,original_price,stock,sold,comment_count,avg_score,tags,status,create_time,update_time,category,brand FROM item WHERE (status = ?) ORDER BY update_time DESC LIMIT ?
+16:17:29:954 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : ==> Parameters: 1(Integer), 12(Long)
+16:17:29:955 DEBUG 43728 --- [http-nio-8081-exec-5] c.yu.item.mapper.ItemMapper.selectPage   : <==      Total: 9

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart-service" />
+        <module name="comment-service" />
+        <module name="address-service" />
+        <module name="pay-service" />
+        <module name="yu-common" />
+        <module name="item-service" />
+        <module name="yu-api" />
+        <module name="member-service" />
+        <module name="collect-service" />
+        <module name="order-service" />
+        <module name="user-service" />
+        <module name="yu-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="address-service" options="-parameters" />
+      <module name="cart-service" options="-parameters" />
+      <module name="collect-service" options="-parameters" />
+      <module name="comment-service" options="-parameters" />
+      <module name="item-service" options="-parameters" />
+      <module name="member-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="pay-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="yu-api" options="-parameters" />
+      <module name="yu-common" options="-parameters" />
+      <module name="yu-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

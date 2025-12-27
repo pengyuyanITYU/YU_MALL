@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.yu.common.config.MyMetaObjectHandler, \
+  com.yu.common.config.MyBatisConfig, \
+   com.yu.common.config.MvcConfig, \
+  com.yu.common.config.JsonConfig, \
+  com.yu.common.config.RabbitMQConfig

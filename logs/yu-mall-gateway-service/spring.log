@@ -1,0 +1,847 @@
+15:53:56:507  INFO 31044 --- [main] com.yu.gateway.GatewayApplication        : No active profile set, falling back to 1 default profile: "default"
+15:53:56:862  INFO 31044 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0f10b2f3-fae7-3553-a22c-a162cebbe792
+15:53:56:902  INFO 31044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:53:56:902  INFO 31044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:53:56:903  INFO 31044 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+15:53:58:808  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+15:53:58:809  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:53:58:809  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+15:53:58:809  INFO 31044 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:53:59:737  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc
+15:53:59:738  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] RpcClient init label, labels = {module=naming, source=sdk}
+15:53:59:739  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:53:59:739  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:53:59:739  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:53:59:740  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:53:59:869  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766822041681_192.168.100.1_59167
+15:53:59:869  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:53:59:869  INFO 31044 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Notify connected event to listeners.
+15:53:59:870  INFO 31044 --- [main] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$461/0x0000000840363c40
+15:54:00:430  INFO 31044 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+15:54:00:475  INFO 31044 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 170
+15:54:00:479  INFO 31044 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 170
+15:54:01:609  INFO 31044 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-gateway-service 192.168.100.1:8080 register finished
+15:54:01:627  INFO 31044 --- [main] com.yu.gateway.GatewayApplication        : Started GatewayApplication in 8.557 seconds (JVM running for 9.388)
+15:54:01:630  INFO 31044 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-gateway-service, group=DEFAULT_GROUP
+15:54:01:630  INFO 31044 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-gateway-service.yaml, group=DEFAULT_GROUP
+15:54:02:174  INFO 31044 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 171
+15:54:02:179  INFO 31044 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 171
+15:54:42:752 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:54:42:758  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:54:43:369  INFO 31044 --- [nacos-grpc-client-executor-18] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 172
+15:54:43:370  INFO 31044 --- [nacos-grpc-client-executor-18] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 172
+15:56:53:085 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:56:53:085  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:57:00:863 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:00:863  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:57:01:408  INFO 31044 --- [nacos-grpc-client-executor-49] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 173
+15:57:01:408  INFO 31044 --- [nacos-grpc-client-executor-49] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 173
+15:57:02:395 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:02:430  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:02:682 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:02:682  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:57:02:733 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:02:735  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:02:791 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:02:792  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:03:017  INFO 31044 --- [nacos-grpc-client-executor-55] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 175
+15:57:03:017  INFO 31044 --- [nacos-grpc-client-executor-55] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 175
+15:57:03:317  INFO 31044 --- [nacos-grpc-client-executor-56] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 176
+15:57:03:317  INFO 31044 --- [nacos-grpc-client-executor-56] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 176
+15:57:05:652 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:05:653  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:05:967 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:05:967  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:57:06:105 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:06:106  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:57:06:631  INFO 31044 --- [nacos-grpc-client-executor-60] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 177
+15:57:06:631  INFO 31044 --- [nacos-grpc-client-executor-60] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 177
+15:57:07:427 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:07:428  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:07:805 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:07:807  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:08:109 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:08:110  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:09:055 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:09:056  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:09:366 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:09:367  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:09:713 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:09:714  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:09:946  INFO 31044 --- [nacos-grpc-client-executor-63] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Receive server push request, request = NotifySubscriberRequest, requestId = 179
+15:57:09:946  INFO 31044 --- [nacos-grpc-client-executor-63] com.alibaba.nacos.common.remote.client   : [11e67b88-5bc5-4d2a-8e3a-cf9dbf7547fc] Ack server push request, request = NotifySubscriberRequest, requestId = 179
+15:57:58:373 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:58:374  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:58:374 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:58:376  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:58:433 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:58:435 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:58:435  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:58:436  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:57:58:482 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:57:58:483  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:28:459 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:28:460  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:28:766 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:28:766  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:30:362 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:30:364  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:30:683 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:30:684  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:31:589 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:31:590  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:33:108 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:33:109  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:34:411 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:34:412  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:34:418 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:34:419  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:34:655 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:34:655 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:34:655  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:34:655  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:34:681 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:34:681  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:37:014 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:37:015  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:37:032 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:37:032  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:39:101 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:39:102  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:39:107 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:39:107  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:41:042 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:41:042  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:43:269 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:43:269  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:43:276 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:43:277  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:45:382 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:45:383  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:46:101 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:46:101 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:46:102  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:46:103  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:46:917 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:46:918  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:46:933 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:46:933  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:47:622 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:47:622 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:47:622  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:47:623  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:47:659 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:47:659 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:47:659  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:47:659  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:47:674 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:47:674  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+15:59:48:949 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:48:950  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:48:962 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:48:963  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:50:094 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:50:095  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:50:408 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:50:409  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:52:223 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:52:223  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:52:531 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:52:532  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+15:59:52:553 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+15:59:52:555  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:00:04:384 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:00:04:384  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:00:04:385 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:00:04:386  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:00:04:435 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:00:04:436 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:00:04:436  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:00:04:437  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:00:04:458 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:00:04:459  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:15:330 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:15:331  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:15:332 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:15:332  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:15:377 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:15:377 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:15:378  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:15:378  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:15:400 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:15:401  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:34:950 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:34:950  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:35:263 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:35:263  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:36:548 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:36:549  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:36:866 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:36:866 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:36:866  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:36:867  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:38:061 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:38:061 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:38:061  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:38:062  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:38:101 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:38:101 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:38:102  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:03:38:102  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:03:38:123 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:38:123  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:03:39:007 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:39:007  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:39:845 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:39:846  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:40:686 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:40:687  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:41:469 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:41:470  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:41:778 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:41:779  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:42:951 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:42:951  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:43:266 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:43:266  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:03:43:291 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:43:291  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:03:46:777 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:46:778  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:46:826 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:46:826  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:47:135 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:47:136  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:03:50:544 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:03:50:544  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:02:276 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:02:277  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:02:585 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:02:585  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:02:613 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:02:613  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:03:720 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:03:721  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:04:042 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:04:042  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:04:095 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:04:096  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:05:840 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:05:840  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:06:153 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:06:153  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:06:184 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:06:184  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:08:217 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:08:218  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:08:253 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:08:254  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:08:561 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:08:561  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:10:191 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:10:192  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:10:496 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:10:497  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:10:514 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:10:515  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:14:784 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:14:785  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:15:103 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:15:104  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:15:792 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:15:792  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:16:571 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:16:573  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:16:579 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:16:580  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:16:604 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:16:604  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:16:604 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:16:605  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:16:622 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:16:622  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:04:17:547 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:17:547  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:17:557 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:17:558  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:30:311 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:30:312  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:30:617 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:30:618  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:32:222 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:32:223  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:32:530 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:32:530  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:32:551 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:32:552  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:44:199 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:44:200  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:44:514 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:44:514  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:49:853 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:49:854  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:49:855 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:49:856  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:49:921 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:49:921 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:04:49:921  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:04:49:922  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:06:43:124 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:06:43:125  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:06:43:127 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:06:43:128  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:06:43:198 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:06:43:198 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:06:43:199  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:06:43:200  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:14:790 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:14:791  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:14:804 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:14:805  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:14:870 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:14:870 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:14:871  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:14:872  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:16:064 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:16:065  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:07:16:684 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:07:16:684  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:09:12:486 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:09:12:487  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:09:13:478 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:09:13:480  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:09:14:198 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:09:14:199  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:09:14:512 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:09:14:512  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:09:14:531 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:09:14:532  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:38:358 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:38:358  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:38:423 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:38:424  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:45:603 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:45:603  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:46:365 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:46:366  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:46:383 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:46:384  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:46:672 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:46:672  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:46:707 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:46:708  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:50:446 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:50:447  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:50:758 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:50:758  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:50:795 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:50:796  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:52:948 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:52:948  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:55:310 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:55:311  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:55:630 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:55:630  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:55:663 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:55:664  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:56:543 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:56:544  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:56:865 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:56:866  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:57:552 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:57:553  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:58:066 DEBUG 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:067  INFO 31044 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:58:883 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:884  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:58:891 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:892  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:10:58:924 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:924 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:924  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:58:924  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:58:938 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:58:938  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:10:59:922 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:10:59:923  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:01:892 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:01:893  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:01:903 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:01:903  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:04:121 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:04:121  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:04:429 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:04:430  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:05:606 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:05:607  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:05:914 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:05:915  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:05:936 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:05:937  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:13:517 DEBUG 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:13:518  INFO 31044 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:13:519 DEBUG 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:13:520  INFO 31044 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:13:573 DEBUG 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:13:573 DEBUG 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:13:573  INFO 31044 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:13:573  INFO 31044 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:13:593 DEBUG 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:13:594  INFO 31044 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:23:241 DEBUG 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:23:243  INFO 31044 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:23:244 DEBUG 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:23:244  INFO 31044 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:23:291 DEBUG 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:23:291 DEBUG 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:23:292  INFO 31044 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:23:292  INFO 31044 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:23:309 DEBUG 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:23:310  INFO 31044 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:27:066 DEBUG 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:27:067  INFO 31044 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:27:067 DEBUG 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:27:068  INFO 31044 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:27:117 DEBUG 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:27:117 DEBUG 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:27:118  INFO 31044 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:27:119  INFO 31044 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:11:27:138 DEBUG 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:11:27:139  INFO 31044 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:12:482  WARN 31044 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:15:12:482  WARN 31044 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:15:12:482  WARN 31044 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:15:12:484  WARN 31044 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:15:12:495  INFO 31044 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:15:12:499  INFO 31044 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:15:12:828  INFO 31044 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:15:12:828  INFO 31044 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1f9d732b[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:15:12:828  INFO 31044 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1766822041681_192.168.100.1_59167
+16:15:12:830  INFO 31044 --- [nacos-grpc-client-executor-354] c.a.n.c.remote.client.grpc.GrpcClient    : [1766822041681_192.168.100.1_59167]Ignore complete event,isRunning:false,isAbandon=false
+16:15:12:833  INFO 31044 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@23cd16b1[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 355]
+16:15:20:456  INFO 43912 --- [main] com.yu.gateway.GatewayApplication        : No active profile set, falling back to 1 default profile: "default"
+16:15:20:782  INFO 43912 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0f10b2f3-fae7-3553-a22c-a162cebbe792
+16:15:20:815  INFO 43912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:15:20:815  INFO 43912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:15:20:816  INFO 43912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+16:15:22:130  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+16:15:22:131  INFO 43912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+16:15:22:695  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 3a0fc058-608a-412e-9adc-2f309ee962b7
+16:15:22:695  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] RpcClient init label, labels = {module=naming, source=sdk}
+16:15:22:696  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:15:22:696  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:15:22:697  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:15:22:697  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+16:15:22:815  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766823324642_192.168.100.1_50567
+16:15:22:815  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:15:22:815  INFO 43912 --- [main] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$461/0x0000000840363c40
+16:15:22:815  INFO 43912 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Notify connected event to listeners.
+16:15:23:201  INFO 43912 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+16:15:23:416  INFO 43912 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 181
+16:15:23:419  INFO 43912 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 181
+16:15:23:955  INFO 43912 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-gateway-service 192.168.100.1:8080 register finished
+16:15:23:968  INFO 43912 --- [main] com.yu.gateway.GatewayApplication        : Started GatewayApplication in 6.714 seconds (JVM running for 7.507)
+16:15:23:970  INFO 43912 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-gateway-service, group=DEFAULT_GROUP
+16:15:23:971  INFO 43912 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-gateway-service.yaml, group=DEFAULT_GROUP
+16:15:24:515  INFO 43912 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 182
+16:15:24:518  INFO 43912 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 182
+16:15:32:500 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:32:549  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:33:159  INFO 43912 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 183
+16:15:33:160  INFO 43912 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 183
+16:15:33:419 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:33:420  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:33:505 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:33:506  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:33:829 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:33:829 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:33:829  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:33:831  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:33:962  INFO 43912 --- [nacos-grpc-client-executor-14] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 186
+16:15:33:963  INFO 43912 --- [nacos-grpc-client-executor-14] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 186
+16:15:34:365  INFO 43912 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 187
+16:15:34:365  INFO 43912 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 187
+16:15:39:487 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:39:488  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:43:390 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:43:392  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:44:011  INFO 43912 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 188
+16:15:44:012  INFO 43912 --- [nacos-grpc-client-executor-20] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 188
+16:15:44:274 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:44:275  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:44:597 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:44:598  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:46:831 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:46:833  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:47:145 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:47:146  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:47:146 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:47:148  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:51:315 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:51:316  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:51:330 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:51:332  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:51:397 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:51:397 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:51:397 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:51:398  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:51:399  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:51:399  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:54:092 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:54:093  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:54:099 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:54:100  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:54:149 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:54:149  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:15:54:149 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:54:150  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:15:54:194 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:54:194  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:15:54:660  INFO 43912 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 193
+16:15:54:661  INFO 43912 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 193
+16:15:54:761  INFO 43912 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 194
+16:15:54:761  INFO 43912 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 194
+16:15:58:439 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:58:440  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:15:58:446 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:15:58:447  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:00:147 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:00:148  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:00:155 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:00:156  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:00:179 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:00:179 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:00:179  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:00:179  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:00:195 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:00:195  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:02:381 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:02:382  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:02:386 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:02:387  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:03:311 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:03:312  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:04:053 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:054  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:04:058 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:059  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:04:764 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:764  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:04:770 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:771  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:04:794 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:794 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:794  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:04:795  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:04:809 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:04:809  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:06:564 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:06:564  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:06:570 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:06:571  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:08:313 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:08:315  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:08:325 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:08:326  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:08:360 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:08:360 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:08:360 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:08:361  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:08:361  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:08:362  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:190 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:192  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:211 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:212  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:228 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:228 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:228 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:228  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:229  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:230  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:780 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:781  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:791 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:791  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:825 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:825 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:825 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:09:825  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:825  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:09:827  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:235 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:236  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:252 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:253  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:268 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:268 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:268 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:269  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:269  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:270  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:474 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:475  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:485 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:486  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:519 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:519 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:519 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:520  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:520  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:521  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:647 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:647  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:662 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:663  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:676 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:676 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:676 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:677  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:678  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:678  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:850 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:850  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:863 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:864  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:896 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:896 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:896 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:10:897  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:897  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:10:897  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:023 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:024  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:036 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:037  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:050 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:050 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:050 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:051  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:051  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:052  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:192 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:193  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:206 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:207  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:241 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:241 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:241 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:11:241  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:242  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:11:242  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:18:301 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:18:302  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:18:313 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:18:314  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:18:374 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:18:374 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:18:374 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:18:375  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:18:375  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:18:376  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:139 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:139  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:158 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:159  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:176 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:176 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:176 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:177  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:177  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:177  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:624 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:625  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:635 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:635  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:671 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:671 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:671 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:19:672  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:672  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:19:673  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:24:595 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:24:596  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:24:612 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:24:613  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:26:791 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:26:792  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:27:103 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:27:104  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:29:274 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:29:275  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:41:454 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:41:454  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:51:819 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:51:820  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:51:932 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:51:933  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:52:241 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:52:241  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:53:918 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:53:920  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:55:012 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:55:013  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:55:327 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:55:328  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:56:124 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:56:125  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:56:444 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:56:444 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:56:444  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:56:444  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:58:181 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:181  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:58:187 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:188  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:16:58:208 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:208 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:208  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:58:208 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:209  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:58:209  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:16:58:224 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:16:58:225  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:05:399 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:05:399 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:05:400  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:05:400  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:06:348 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:349  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:06:349 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:350  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:06:374 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:374 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:374  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:06:374  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:06:374 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:374  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:06:386 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:06:386  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:07:783 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:07:783 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:07:784  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:07:784  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:09:237 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:237 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:237  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:09:238  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:09:266 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:266 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:266  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:09:266 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:266  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:09:266  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:09:278 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:09:278  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:10:740 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:10:741  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:10:746 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:10:746  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:11:800 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:11:801  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:11:809 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:11:810  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:11:855 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:11:855 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:11:857 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:11:857  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:11:858  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:11:858  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:13:095 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:13:096  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:13:422 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:13:422  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:13:461 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:13:462  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:14:017  INFO 43912 --- [nacos-grpc-client-executor-51] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Receive server push request, request = NotifySubscriberRequest, requestId = 196
+16:17:14:017  INFO 43912 --- [nacos-grpc-client-executor-51] com.alibaba.nacos.common.remote.client   : [3a0fc058-608a-412e-9adc-2f309ee962b7] Ack server push request, request = NotifySubscriberRequest, requestId = 196
+16:17:14:199 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:14:200  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:14:211 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:14:212  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:14:251 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:14:251  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:14:281 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:14:282  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:15:766 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:15:766  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:16:081 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:16:081  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:16:113 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:16:113  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:19:197 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:19:198  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:19:517 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:19:517  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:19:544 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:19:545  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:20:823 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:20:823  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:20:851 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:20:852  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:21:802 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:21:803  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:21:821 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:21:822  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:22:362 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:22:362  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:22:374 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:22:374  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:24:811 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:24:811  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:24:851 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:24:851  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:25:210 DEBUG 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:25:210  INFO 43912 --- [reactor-http-nio-2] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:25:222 DEBUG 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:25:223  INFO 43912 --- [reactor-http-nio-3] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:25:635 DEBUG 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:25:635  INFO 43912 --- [reactor-http-nio-4] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:25:651 DEBUG 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:25:652  INFO 43912 --- [reactor-http-nio-5] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:26:369 DEBUG 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:26:369  INFO 43912 --- [reactor-http-nio-6] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:26:378 DEBUG 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:26:379  INFO 43912 --- [reactor-http-nio-7] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:26:424 DEBUG 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:26:424  INFO 43912 --- [reactor-http-nio-8] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:26:454 DEBUG 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:26:455  INFO 43912 --- [reactor-http-nio-9] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:28:051 DEBUG 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:28:052  INFO 43912 --- [reactor-http-nio-10] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:28:066 DEBUG 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:28:067  INFO 43912 --- [reactor-http-nio-11] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:28:627 DEBUG 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:28:627  INFO 43912 --- [reactor-http-nio-12] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:28:642 DEBUG 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:28:643  INFO 43912 --- [reactor-http-nio-13] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:29:895 DEBUG 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:29:896  INFO 43912 --- [reactor-http-nio-14] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:29:908 DEBUG 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:29:909  INFO 43912 --- [reactor-http-nio-15] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36
+16:17:29:948 DEBUG 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:29:948  INFO 43912 --- [reactor-http-nio-16] com.yu.gateway.filter.MyGlobalFilter     : 无需校验,放行
+16:17:29:978 DEBUG 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 进入全局过滤器MyGlobalFilter
+16:17:29:979  INFO 43912 --- [reactor-http-nio-1] com.yu.gateway.filter.MyGlobalFilter     : 登录用户36

@@ -1,0 +1,1026 @@
+15:00:50:307  INFO 46836 --- [main] com.yu.cart.CartApplication              : No active profile set, falling back to 1 default profile: "default"
+15:00:51:232  INFO 46836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:00:51:235  INFO 46836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:00:51:266  INFO 46836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+15:00:51:577  INFO 46836 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c3f83b7-e1de-34b0-84fe-da1881418e87
+15:00:51:650  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:651  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:651  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:682  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:684  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:686  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:686  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$587/0x00000008405dcc40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:687  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:691  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:692  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:51:695  INFO 46836 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:00:51:747  INFO 46836 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:00:51:752  INFO 46836 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:00:51:812  INFO 46836 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:00:51:885  INFO 46836 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:00:52:007  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f2edef04-eefe-4535-8b9e-f5f74d0e9f9b
+15:00:52:007  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] RpcClient init label, labels = {module=naming, source=sdk}
+15:00:52:010  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:00:52:010  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:00:52:010  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:00:52:011  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:00:52:131  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766818853929_192.168.100.1_49821
+15:00:52:131  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:00:52:131  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:00:52:131  INFO 46836 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Notify connected event to listeners.
+15:00:52:165  INFO 46836 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:00:52:724  INFO 46836 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Receive server push request, request = NotifySubscriberRequest, requestId = 135
+15:00:52:728  INFO 46836 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [f2edef04-eefe-4535-8b9e-f5f74d0e9f9b] Ack server push request, request = NotifySubscriberRequest, requestId = 135
+15:00:52:774  INFO 46836 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.100.128:8099,msg:< RegisterTMRequest{applicationId='yu-mall-cart-service', transactionServiceGroup='mall'} >
+15:00:53:564  INFO 46836 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xa0033548, L:/192.168.100.1:56657 - R:/192.168.100.128:8099]
+15:00:53:569  INFO 46836 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 62 ms, version:1.5.2,role:TMROLE,channel:[id: 0xa0033548, L:/192.168.100.1:56657 - R:/192.168.100.128:8099]
+15:00:53:570  INFO 46836 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[yu-mall-cart-service] txServiceGroup[mall]
+15:00:53:578  INFO 46836 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:00:53:579  INFO 46836 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:00:53:585  INFO 46836 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:00:53:585  INFO 46836 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[yu-mall-cart-service] txServiceGroup[mall]
+15:00:53:586  INFO 46836 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:00:53:587  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:53:653  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:53:655  INFO 46836 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:53:900  INFO 46836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+15:00:53:910  INFO 46836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:00:53:911  INFO 46836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:00:54:085  INFO 46836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:00:54:085  INFO 46836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3760 ms
+15:00:54:323  INFO 46836 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'yu-mall-item-service' URL not provided. Will try picking an instance via load-balancing.
+15:00:54:642  INFO 46836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:00:54:755  INFO 46836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:00:54:805  INFO 46836 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:00:54:805  INFO 46836 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.100.128:3307/mall-cart
+15:00:54:806  INFO 46836 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.100.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.100.128:3307/mall-cart', applicationId='yu-mall-cart-service', transactionServiceGroup='mall'} >
+15:00:54:813  INFO 46836 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x6c2836ca, L:/192.168.100.1:61967 - R:/192.168.100.128:8099]
+15:00:54:814  INFO 46836 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 5 ms, version:1.5.2,role:RMROLE,channel:[id: 0x6c2836ca, L:/192.168.100.1:61967 - R:/192.168.100.128:8099]
+15:00:57:626  INFO 46836 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:00:59:212  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fb595d9b-a3f6-46ef-a297-bad9387f2504
+15:00:59:213  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] RpcClient init label, labels = {module=naming, source=sdk}
+15:00:59:213  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:00:59:213  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:00:59:213  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:00:59:214  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:00:59:333  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766818861132_192.168.100.1_64839
+15:00:59:333  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:00:59:333  INFO 46836 --- [main] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:00:59:333  INFO 46836 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Notify connected event to listeners.
+15:00:59:355  INFO 46836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+15:00:59:366  INFO 46836 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-cart-service 192.168.100.1:8082 register finished
+15:00:59:849  INFO 46836 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Receive server push request, request = NotifySubscriberRequest, requestId = 138
+15:00:59:851  INFO 46836 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [fb595d9b-a3f6-46ef-a297-bad9387f2504] Ack server push request, request = NotifySubscriberRequest, requestId = 138
+15:01:00:316  INFO 46836 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:01:00:318  INFO 46836 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:01:00:336  INFO 46836 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:01:00:397  INFO 46836 --- [main] com.yu.cart.CartApplication              : Started CartApplication in 14.632 seconds (JVM running for 15.474)
+15:01:00:401  INFO 46836 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-cart-service, group=DEFAULT_GROUP
+15:01:00:401  INFO 46836 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-cart-service.yaml, group=DEFAULT_GROUP
+15:26:36:559  WARN 46836 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:26:36:559  WARN 46836 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:26:36:562  WARN 46836 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:26:36:563  WARN 46836 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:26:38:027  INFO 46836 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:26:38:030  INFO 46836 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:26:38:357  INFO 46836 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:26:38:357  INFO 46836 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5e4af391[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:26:38:357  INFO 46836 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1766818861132_192.168.100.1_64839
+15:26:38:359  INFO 46836 --- [nacos-grpc-client-executor-320] c.a.n.c.remote.client.grpc.GrpcClient    : [1766818861132_192.168.100.1_64839]Ignore complete event,isRunning:false,isAbandon=false
+15:26:38:364  INFO 46836 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@42589a94[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 321]
+15:26:38:369  INFO 46836 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:26:38:385  INFO 46836 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:26:38:400  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]
+15:26:38:401  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]
+15:26:38:401  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]
+15:26:38:401  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]
+15:26:38:401  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]) will closed
+15:26:38:402  INFO 46836 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xa0033548, L:/192.168.100.1:56657 ! R:/192.168.100.128:8099]) will closed
+15:26:38:402  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]
+15:26:38:402  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]
+15:26:38:402  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]
+15:26:38:403  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]
+15:26:38:403  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]) will closed
+15:26:38:403  INFO 46836 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x6c2836ca, L:/192.168.100.1:61967 ! R:/192.168.100.128:8099]) will closed
+15:42:52:552  INFO 14888 --- [main] com.yu.cart.CartApplication              : No active profile set, falling back to 1 default profile: "default"
+15:42:53:543  INFO 14888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:42:53:546  INFO 14888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:42:53:578  INFO 14888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+15:42:53:850  INFO 14888 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c3f83b7-e1de-34b0-84fe-da1881418e87
+15:42:53:912  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:913  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:913  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:938  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:941  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:942  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:943  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$587/0x00000008405c0c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:944  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:947  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:949  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:53:951  INFO 14888 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:42:53:997  INFO 14888 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:42:54:002  INFO 14888 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:42:54:055  INFO 14888 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:42:54:119  INFO 14888 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:42:54:241  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07
+15:42:54:241  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] RpcClient init label, labels = {module=naming, source=sdk}
+15:42:54:243  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:42:54:243  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:42:54:243  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:42:54:244  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:42:54:364  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766821376176_192.168.100.1_59060
+15:42:54:364  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:42:54:364  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:42:54:364  INFO 14888 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Notify connected event to listeners.
+15:42:54:405  INFO 14888 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:42:54:918  INFO 14888 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Receive server push request, request = NotifySubscriberRequest, requestId = 156
+15:42:54:923  INFO 14888 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [fc9dc2e5-4aa7-4364-a297-9a0bcdd37e07] Ack server push request, request = NotifySubscriberRequest, requestId = 156
+15:42:55:498  INFO 14888 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.100.128:8099,msg:< RegisterTMRequest{applicationId='yu-mall-cart-service', transactionServiceGroup='mall'} >
+15:42:56:636  INFO 14888 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xc3f139ad, L:/192.168.100.1:60233 - R:/192.168.100.128:8099]
+15:42:56:642  INFO 14888 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 72 ms, version:1.5.2,role:TMROLE,channel:[id: 0xc3f139ad, L:/192.168.100.1:60233 - R:/192.168.100.128:8099]
+15:42:56:643  INFO 14888 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[yu-mall-cart-service] txServiceGroup[mall]
+15:42:56:654  INFO 14888 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:42:56:654  INFO 14888 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:42:56:664  INFO 14888 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:42:56:664  INFO 14888 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[yu-mall-cart-service] txServiceGroup[mall]
+15:42:56:664  INFO 14888 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:42:56:666  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:56:770  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:56:774  INFO 14888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:42:57:078  INFO 14888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+15:42:57:095  INFO 14888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:42:57:095  INFO 14888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:42:57:339  INFO 14888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:42:57:340  INFO 14888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4770 ms
+15:42:57:544  INFO 14888 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'yu-mall-item-service' URL not provided. Will try picking an instance via load-balancing.
+15:42:57:854  INFO 14888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:42:57:964  INFO 14888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:42:58:013  INFO 14888 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.100.128:8099
+15:42:58:013  INFO 14888 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.100.128:3307/mall-cart
+15:42:58:013  INFO 14888 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.100.128:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.100.128:3307/mall-cart', applicationId='yu-mall-cart-service', transactionServiceGroup='mall'} >
+15:42:58:022  INFO 14888 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x962e71cd, L:/192.168.100.1:58905 - R:/192.168.100.128:8099]
+15:42:58:022  INFO 14888 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 5 ms, version:1.5.2,role:RMROLE,channel:[id: 0x962e71cd, L:/192.168.100.1:58905 - R:/192.168.100.128:8099]
+15:43:02:208  INFO 14888 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:43:04:350  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 9a185b97-2174-43fe-bd83-da241624cd81
+15:43:04:351  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] RpcClient init label, labels = {module=naming, source=sdk}
+15:43:04:351  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:43:04:351  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:43:04:351  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:43:04:352  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+15:43:04:475  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1766821386289_192.168.100.1_51196
+15:43:04:475  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:43:04:475  INFO 14888 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Notify connected event to listeners.
+15:43:04:475  INFO 14888 --- [main] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$466/0x0000000840478440
+15:43:04:494  INFO 14888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+15:43:04:502  INFO 14888 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP yu-mall-cart-service 192.168.100.1:8082 register finished
+15:43:05:059  INFO 14888 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Receive server push request, request = NotifySubscriberRequest, requestId = 162
+15:43:05:060  INFO 14888 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Ack server push request, request = NotifySubscriberRequest, requestId = 162
+15:43:05:740  INFO 14888 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:43:05:743  INFO 14888 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:43:05:765  INFO 14888 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:43:05:848  INFO 14888 --- [main] com.yu.cart.CartApplication              : Started CartApplication in 20.194 seconds (JVM running for 21.598)
+15:43:05:854  INFO 14888 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-cart-service, group=DEFAULT_GROUP
+15:43:05:855  INFO 14888 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=yu-mall-cart-service.yaml, group=DEFAULT_GROUP
+15:57:02:528  INFO 14888 --- [http-nio-8082-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_a1ff8825baa73c3a78eb96aa40325abc=1765169191,1765192038,1765200045,1765247132] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:57:02:541  INFO 14888 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:57:02:541  INFO 14888 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:57:02:551  INFO 14888 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+15:57:02:606  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:02:693 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:02:720 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:02:748 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 2
+15:57:02:796  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:02:798 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:02:798 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:02:800 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 2
+15:57:05:656  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:05:658 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:05:659 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:05:660 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 2
+15:57:07:469  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 添加CartFormDTO(itemId=4, name=保湿滋润口红, num=1, spec={"色号":"小辣椒"}, price=29900, image=https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif)商品到购物车
+15:57:07:481 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> GET http://yu-mall-item-service/items/4 HTTP/1.1
+15:57:07:482 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] user-info: 36
+15:57:07:482 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> END HTTP (0-byte body)
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- HTTP/1.1 200  (182ms)
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] connection: keep-alive
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] content-type: application/json
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] date: Sat, 27 Dec 2025 07:57:07 GMT
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] keep-alive: timeout=60
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] transfer-encoding: chunked
+15:57:07:665 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] 
+15:57:07:666 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] {"code":200,"msg":"操作成功","data":{"id":"4","name":"保湿滋润口红","subTitle":"显色持久 不沾杯","price":"29900","originalPrice":39900,"tags":"正品","sold":800,"avgScore":4.7,"bannerImages":["https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif"],"videoUrl":null,"detailHtml":"<p>试色效果图...</p><img src=\"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif\">","specTemplate":[{"name":"色号","values":["小辣椒","草莓红"]}],"skuList":[{"id":"139","specs":{"色号":"小辣椒"},"price":"29900","stock":1000,"image":"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif"},{"id":"140","specs":{"色号":"草莓红"},"price":"29900","stock":1000,"image":"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E8%8D%89%E8%8E%937.jpg.avif"}]},"success":true}
+15:57:07:666 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- END HTTP (906-byte body)
+15:57:07:682 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ? AND item_id = ?)
+15:57:07:682 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long), 4(Long)
+15:57:07:683 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+15:57:07:700 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : ==>  Preparing: INSERT INTO cart ( user_id, item_id, num, name, spec, price, image, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+15:57:07:703 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : ==> Parameters: 36(Long), 4(Long), 1(Integer), 保湿滋润口红(String), {"色号":"小辣椒"}(String), 29900(Long), https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif(String), 2025-12-27T15:57:07.698649500(LocalDateTime), 2025-12-27T15:57:07.699642700(LocalDateTime)
+15:57:07:706 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : <==    Updates: 1
+15:57:07:809  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:07:811 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:07:811 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:07:813 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:08:113  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:08:114 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:08:114 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:08:117 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:08:139  INFO 14888 --- [nacos-grpc-client-executor-179] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Receive server push request, request = NotifySubscriberRequest, requestId = 178
+15:57:08:139  INFO 14888 --- [nacos-grpc-client-executor-179] com.alibaba.nacos.common.remote.client   : [9a185b97-2174-43fe-bd83-da241624cd81] Ack server push request, request = NotifySubscriberRequest, requestId = 178
+15:57:09:060  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:09:062 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:09:063 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:09:066 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:09:717  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:09:720 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:09:720 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:09:721 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:58:379  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:58:380  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:58:381 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:58:382 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:58:383 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:58:383 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:58:384 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:58:384 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:58:440  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:58:442 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:58:443 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:58:446 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:57:58:487  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:57:58:488 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:57:58:488 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:57:58:490 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:28:467  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:28:469 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:28:469 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:28:470 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:28:771  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:28:773 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:28:773 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:28:775 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:30:367  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:30:370 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:30:370 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:30:371 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:31:594  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:31:599 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:31:600 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:31:603 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:33:113  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:33:115 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:33:116 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:33:117 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:34:422  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:34:424 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:34:424 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:34:426 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:37:018  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:37:021 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:37:021 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:37:023 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:37:035  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:37:037 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:37:037 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:37:039 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:39:110  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:39:113 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:39:113 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:39:114 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:41:044  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:41:045 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:41:045 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:41:048 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:43:279  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:43:281 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:43:282 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:43:283 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:45:385  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:45:387 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:45:388 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:45:389 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:46:104  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:46:106 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:46:107 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:46:108 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:46:921  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:46:923 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:46:924 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:46:926 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:46:936  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:46:937 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:46:937 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:46:938 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:47:624  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:47:627 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:47:628 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:47:629 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:48:953  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:48:955 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:48:956 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:48:957 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:48:965  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:48:967 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:48:967 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:48:969 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:50:098  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:50:100 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:50:100 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:50:102 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:50:411  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:50:413 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:50:413 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:50:414 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:52:226  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:52:229 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:52:229 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:52:231 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+15:59:52:559  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+15:59:52:560 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:59:52:560 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+15:59:52:563 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:00:04:389  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:00:04:390  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:00:04:391 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:00:04:391 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:00:04:393 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:00:04:393 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:00:04:393 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:00:04:394 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:00:04:440  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:00:04:441 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:00:04:442 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:00:04:443 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:00:04:463  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:00:04:464 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:00:04:464 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:00:04:465 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:15:334  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:15:335  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:15:337 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:15:337 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:15:338 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:15:338 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:15:339 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:15:339 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:15:380  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:15:382 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:15:382 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:15:384 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:15:403  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:15:405 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:15:405 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:15:406 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:34:954  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:34:956 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:34:956 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:34:957 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:35:265  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:35:266 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:35:266 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:35:268 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:36:551  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:36:553 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:36:553 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:36:554 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:36:872  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:36:873 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:36:874 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:36:875 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:38:063  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:38:066 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:38:066 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:38:068 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:39:009  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:39:011 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:39:011 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:39:012 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:39:848  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:39:851 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:39:851 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:39:853 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:40:689  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:40:691 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:40:691 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:40:692 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:41:473  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:41:475 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:41:476 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:41:477 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:41:782  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:41:782 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:41:783 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:41:784 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:42:953  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:42:956 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:42:956 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:42:958 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:46:781  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 添加CartFormDTO(itemId=4, name=保湿滋润口红, num=1, spec={"色号":"草莓红"}, price=29900, image=https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E8%8D%89%E8%8E%937.jpg.avif)商品到购物车
+16:03:46:781 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> GET http://yu-mall-item-service/items/4 HTTP/1.1
+16:03:46:781 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] user-info: 36
+16:03:46:781 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> END HTTP (0-byte body)
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- HTTP/1.1 200  (19ms)
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] connection: keep-alive
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] content-type: application/json
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] date: Sat, 27 Dec 2025 08:03:46 GMT
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] keep-alive: timeout=60
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] transfer-encoding: chunked
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] 
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] {"code":200,"msg":"操作成功","data":{"id":"4","name":"保湿滋润口红","subTitle":"显色持久 不沾杯","price":"29900","originalPrice":39900,"tags":"正品","sold":800,"avgScore":4.7,"bannerImages":["https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif"],"videoUrl":null,"detailHtml":"<p>试色效果图...</p><img src=\"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif\">","specTemplate":[{"name":"色号","values":["小辣椒","草莓红"]}],"skuList":[{"id":"139","specs":{"色号":"小辣椒"},"price":"29900","stock":1000,"image":"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif"},{"id":"140","specs":{"色号":"草莓红"},"price":"29900","stock":1000,"image":"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E8%8D%89%E8%8E%937.jpg.avif"}]},"success":true}
+16:03:46:801 DEBUG 14888 --- [http-nio-8082-exec-8] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- END HTTP (906-byte body)
+16:03:46:803 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ? AND item_id = ?)
+16:03:46:804 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long), 4(Long)
+16:03:46:804 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 1
+16:03:46:811 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET user_id=?, item_id=?, num=?, name=?, spec=?, price=?, image=?, create_time=?, update_time=? WHERE id=?
+16:03:46:811 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.updateById   : ==> Parameters: 36(Long), 4(Long), 2(Integer), 保湿滋润口红(String), {"色号": "小辣椒"}(String), 29900(Long), https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif(String), 2025-12-27T15:57:08(LocalDateTime), 2025-12-27T15:57:08(LocalDateTime), 190(Long)
+16:03:46:813 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.updateById   : <==    Updates: 1
+16:03:46:829  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:46:831 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:46:831 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:46:832 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:47:137  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:03:47:139 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:03:47:139 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:03:47:140 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:03:50:552 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.updateById   : ==>  Preparing: UPDATE cart SET item_id=?, num=?, name=?, spec=?, price=?, image=?, update_time=? WHERE id=?
+16:03:50:552 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.updateById   : ==> Parameters: 4(Long), 1(Integer), 保湿滋润口红(String), {"色号":"小辣椒"}(String), 29900(Long), https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/be33e960a657b1b6.jpg.avif(String), 2025-12-27T16:03:50.551866700(LocalDateTime), 190(Long)
+16:03:50:554 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.updateById   : <==    Updates: 1
+16:04:02:279  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:02:281 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:02:282 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:02:283 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:04:03:723  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:03:725 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:03:726 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:03:727 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:04:05:842  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:05:844 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:05:844 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:05:846 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 3
+16:04:08:220  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 添加CartFormDTO(itemId=2, name=旗舰5G智能手机, num=1, spec={"颜色":"午夜黑"}, price=549900, image=https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E5%8D%88%E5%A4%9C%E9%BB%91.jpg.avif)商品到购物车
+16:04:08:221 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> GET http://yu-mall-item-service/items/2 HTTP/1.1
+16:04:08:221 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] user-info: 36
+16:04:08:221 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> END HTTP (0-byte body)
+16:04:08:233 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- HTTP/1.1 200  (12ms)
+16:04:08:233 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] connection: keep-alive
+16:04:08:233 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] content-type: application/json
+16:04:08:233 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] date: Sat, 27 Dec 2025 08:04:08 GMT
+16:04:08:234 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] keep-alive: timeout=60
+16:04:08:234 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] transfer-encoding: chunked
+16:04:08:234 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] 
+16:04:08:234 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] {"code":200,"msg":"操作成功","data":{"id":"2","name":"旗舰5G智能手机","subTitle":"120Hz高刷 骁龙8Gen3","price":"499900","originalPrice":699900,"tags":"新品,5G","sold":202,"avgScore":4.9,"bannerImages":["\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E6%B5%81%E5%85%89%29.avif"],"videoUrl":"【【4K】阿尔卑斯山 - 绝美风景休闲放松影片】 https://www.bilibili.com/video/BV1A44y1t77E/?share_source=copy_web&vd_source=4c0fdc8f1f76b5f27f4a10c70b7c7783","detailHtml":"<p>骁龙处理器跑分展示...</p><img src=\"\n\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E6%B5%81%E5%85%89%29.avif\">","specTemplate":[{"name":"颜色","values":["流光白","午夜黑"]}],"skuList":[{"id":"135","specs":{"颜色":"流光白"},"price":"499900","stock":198,"image":"\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E6%B5%81%E5%85%89%29.avif"},{"id":"136","specs":{"颜色":"午夜黑"},"price":"549900","stock":298,"image":"https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E5%8D%88%E5%A4%9C%E9%BB%91.jpg.avif"}]},"success":true}
+16:04:08:234 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- END HTTP (1115-byte body)
+16:04:08:235 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ? AND item_id = ?)
+16:04:08:236 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long), 2(Long)
+16:04:08:237 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:04:08:237 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.cart.mapper.CartMapper.insert     : ==>  Preparing: INSERT INTO cart ( user_id, item_id, num, name, spec, price, image, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:04:08:238 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.cart.mapper.CartMapper.insert     : ==> Parameters: 36(Long), 2(Long), 1(Integer), 旗舰5G智能手机(String), {"颜色":"午夜黑"}(String), 549900(Long), https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/%E5%8D%88%E5%A4%9C%E9%BB%91.jpg.avif(String), 2025-12-27T16:04:08.237864500(LocalDateTime), 2025-12-27T16:04:08.237864500(LocalDateTime)
+16:04:08:240 DEBUG 14888 --- [http-nio-8082-exec-6] com.yu.cart.mapper.CartMapper.insert     : <==    Updates: 1
+16:04:08:257  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:08:258 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:08:258 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:08:260 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:08:564  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:08:565 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:08:566 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:08:567 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:10:195  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:10:197 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:10:197 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:10:198 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:10:517  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:10:519 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:10:519 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:10:520 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:14:787  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:14:789 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:14:789 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:14:791 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:15:794  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:15:796 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:15:796 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:15:797 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:16:582  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:16:584 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:16:584 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:16:586 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:17:549  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:17:551 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:17:551 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:17:552 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:17:560  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:17:561 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:17:561 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:17:563 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:30:316  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:30:318 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:30:318 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:30:320 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:30:620  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:30:621 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:30:621 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:30:624 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:32:225  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:32:227 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:32:227 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:32:228 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:32:554  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:32:554 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:32:556 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:32:557 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:44:202  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:44:204 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:44:205 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:44:206 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:49:857  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:49:859 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:49:859  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:49:859 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:49:860 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:49:860 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:49:860 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:49:861 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:04:49:924  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:04:49:942 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:04:49:942 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:04:49:944 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:06:43:129  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:06:43:130  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:06:43:131 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:06:43:131 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:06:43:131 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:06:43:131 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:06:43:132 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:06:43:132 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:06:43:202  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:06:43:203 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:06:43:203 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:06:43:205 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:07:14:794  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:07:14:796 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:07:14:796 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:07:14:799 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:07:14:807  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:07:14:810 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:07:14:810 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:07:14:812 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:07:14:874  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:07:14:874 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:07:14:875 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:07:14:877 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:07:16:068  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:07:16:070 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:07:16:070 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:07:16:072 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:07:16:686  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:07:16:688 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:07:16:688 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:07:16:689 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:09:12:492  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:09:12:493 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:09:12:494 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:09:12:495 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:09:13:482  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:09:13:484 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:09:13:485 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:09:13:486 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:09:14:202  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:09:14:202 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:09:14:204 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:09:14:205 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:09:14:534  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:09:14:536 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:09:14:536 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:09:14:537 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:10:46:371  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:46:374 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:46:374 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:46:377 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:10:46:386  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:46:388 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:46:388 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:46:390 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:10:50:449  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:50:451 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:50:451 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:50:452 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 4
+16:10:52:951  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 添加CartFormDTO(itemId=7, name=超薄透气纸尿裤, num=1, spec={"尺码":"M"}, price=12900, image=
+https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif)商品到购物车
+16:10:52:951 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> GET http://yu-mall-item-service/items/7 HTTP/1.1
+16:10:52:951 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] user-info: 36
+16:10:52:951 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] ---> END HTTP (0-byte body)
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- HTTP/1.1 200  (13ms)
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] connection: keep-alive
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] content-type: application/json
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] date: Sat, 27 Dec 2025 08:10:52 GMT
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] keep-alive: timeout=60
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] transfer-encoding: chunked
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] 
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] {"code":200,"msg":"操作成功","data":{"id":"7","name":"超薄透气纸尿裤","subTitle":"整箱装 干爽整晚","price":"12900","originalPrice":12900,"tags":"母婴","sold":600,"avgScore":4.8,"bannerImages":["\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif"],"videoUrl":null,"detailHtml":"<p>吸水性测试...</p><img src=\"\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif\">","specTemplate":[{"name":"尺码","values":["M","L"]}],"skuList":[{"id":"143","specs":{"尺码":"M"},"price":"12900","stock":500,"image":"\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif"},{"id":"144","specs":{"尺码":"L"},"price":"13900","stock":500,"image":"\nhttps://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif"}]},"success":true}
+16:10:52:965 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.api.client.ItemClient             : [ItemClient#getItemById] <--- END HTTP (880-byte body)
+16:10:52:968 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ? AND item_id = ?)
+16:10:52:969 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long), 7(Long)
+16:10:52:969 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:10:52:970 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : ==>  Preparing: INSERT INTO cart ( user_id, item_id, num, name, spec, price, image, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:10:52:970 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : ==> Parameters: 36(Long), 7(Long), 1(Integer), 超薄透气纸尿裤(String), {"尺码":"M"}(String), 12900(Long), 
+https://yu-mall-oss.oss-cn-shenzhen.aliyuncs.com/YU-Mall/items/089cfa66091c57ec.jpg.avif(String), 2025-12-27T16:10:52.970029800(LocalDateTime), 2025-12-27T16:10:52.970029800(LocalDateTime)
+16:10:52:972 DEBUG 14888 --- [http-nio-8082-exec-4] com.yu.cart.mapper.CartMapper.insert     : <==    Updates: 1
+16:10:55:313  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:55:315 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:55:315 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:55:316 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:10:56:546  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:56:549 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:56:549 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:56:550 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:10:57:555  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:57:557 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:57:557 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:57:559 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:10:58:070  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:58:071 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:58:071 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:58:073 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:10:58:894  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:58:897 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:58:897 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:58:898 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:10:59:925  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:10:59:926 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:10:59:926 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:10:59:928 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:01:894  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:01:896 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:01:896 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:01:897 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:01:905  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:01:907 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:01:907 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:01:908 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:04:124  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:04:126 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:04:127 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:04:128 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:04:432  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:04:434 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:04:434 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:04:435 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:05:609  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:05:611 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:05:611 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:05:612 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:05:939  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:05:940 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:05:940 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:05:942 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:13:520  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:13:521 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:13:522 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:13:523 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:13:523  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:13:524 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:13:524 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:13:525 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:13:576  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:13:578 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:13:578 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:13:579 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:13:596  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:13:597 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:13:597 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:13:598 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:23:245  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:23:246  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:23:246 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:23:246 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:23:248 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:23:248 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:23:248 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:23:249 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:23:294  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:23:295 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:23:295 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:23:297 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:23:313  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:23:314 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:23:314 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:23:315 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:27:069  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:27:070  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:27:070 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:27:070 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:27:071 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:27:071 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:27:071 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:27:072 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:27:121  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:27:122 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:27:122 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:27:124 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:11:27:141  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:11:27:142 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:11:27:142 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:11:27:143 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 5
+16:15:33:470 DEBUG 14888 --- [http-nio-8082-exec-10] c.y.c.mapper.CartMapper.deleteBatchIds   : ==>  Preparing: DELETE FROM cart WHERE id IN ( ? , ? , ? , ? , ? )
+16:15:33:471 DEBUG 14888 --- [http-nio-8082-exec-10] c.y.c.mapper.CartMapper.deleteBatchIds   : ==> Parameters: 188(Long), 189(Long), 190(Long), 191(Long), 192(Long)
+16:15:33:472 DEBUG 14888 --- [http-nio-8082-exec-10] c.y.c.mapper.CartMapper.deleteBatchIds   : <==    Updates: 5
+16:15:33:514  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:33:515 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:33:515 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:33:516 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:39:492  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:39:494 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:39:495 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:39:495 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:44:278  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:44:280 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:44:280 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:44:281 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:46:835  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:46:837 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:46:837 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:46:838 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:51:318  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:51:320 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:51:320 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:51:322 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:51:335  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:51:337 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:51:337 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:51:339 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:51:402  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:51:404 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:51:404 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:51:405 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:54:103  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:54:105 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:54:106 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:54:106 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:15:58:450  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:15:58:450 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:15:58:451 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:15:58:451 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:00:159  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:00:161 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:00:161 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:00:162 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:02:390  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:02:391 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:02:391 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:02:392 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:03:315  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:03:316 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:03:317 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:03:318 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:04:061  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:04:064 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:04:064 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:04:065 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:04:774  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:04:777 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:04:777 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:04:778 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:06:575  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:06:577 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:06:577 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:06:578 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:08:317  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:08:319 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:08:319 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:08:320 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:08:329  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:08:330 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:08:331 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:08:332 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:08:364  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:08:365 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:08:365 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:08:366 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:196  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:198 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:198 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:200 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:215  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:216 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:216 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:217 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:232  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:232 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:232 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:234 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:784  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:785 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:785 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:786 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:794  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:794 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:794 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:795 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:09:828  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:09:829 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:09:829 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:09:830 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:239  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:240 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:240 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:241 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:255  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:256 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:257 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:258 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:272  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:273 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:273 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:275 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:478  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:479 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:479 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:479 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:489  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:491 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:491 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:492 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:522  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:524 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:524 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:525 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:650  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:655 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:655 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:656 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:666  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:669 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:669 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:670 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:679  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:681 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:681 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:682 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:854  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:855 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:856 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:857 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:866  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:867 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:868 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:871 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:10:899  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:10:900 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:10:901 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:10:901 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:026  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:027 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:027 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:028 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:039  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:041 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:041 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:042 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:064  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:065 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:065 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:066 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:196  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:197 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:197 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:197 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:211  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:211 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:212 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:213 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:11:244  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:11:245 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:11:245 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:11:247 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:18:305  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:18:307 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:18:307 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:18:308 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:18:317  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:18:318 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:18:318 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:18:320 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:18:378  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:18:379 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:18:380 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:18:381 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:142  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:145 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:145 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:146 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:162  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:162 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:163 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:163 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:180  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:182 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:182 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:183 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:627  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:628 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:629 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:629 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:638  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:639 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:640 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:641 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:19:674  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:19:676 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:19:676 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:19:677 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:26:795  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:26:796 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:26:797 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:26:798 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:29:277  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:29:278 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:29:278 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:29:279 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:51:936  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:51:938 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:51:939 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:51:939 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:53:922  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:53:924 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:53:924 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:53:925 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:55:015  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:55:017 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:55:018 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:55:018 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:56:127  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:56:129 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:56:129 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:56:130 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:16:58:190  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:16:58:192 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:16:58:192 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:16:58:193 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:05:402  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:05:404 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:05:404 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:05:405 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:06:351  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:06:354 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:06:355 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:06:355 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:07:785  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:07:787 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:07:787 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:07:787 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:09:240  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:09:241 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:09:241 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:09:242 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:10:749  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:10:751 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:10:751 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:10:752 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:11:803  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:11:804 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:11:804 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:11:805 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:11:812  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:11:813 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:11:813 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:11:815 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:11:859  INFO 14888 --- [http-nio-8082-exec-6] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:11:861 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:11:861 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:11:861 DEBUG 14888 --- [http-nio-8082-exec-6] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:13:099  INFO 14888 --- [http-nio-8082-exec-7] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:13:101 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:13:101 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:13:102 DEBUG 14888 --- [http-nio-8082-exec-7] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:14:203  INFO 14888 --- [http-nio-8082-exec-8] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:14:205 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:14:205 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:14:206 DEBUG 14888 --- [http-nio-8082-exec-8] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:14:214  INFO 14888 --- [http-nio-8082-exec-9] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:14:215 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:14:215 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:14:217 DEBUG 14888 --- [http-nio-8082-exec-9] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:15:769  INFO 14888 --- [http-nio-8082-exec-10] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:15:770 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:15:771 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:15:771 DEBUG 14888 --- [http-nio-8082-exec-10] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:19:200  INFO 14888 --- [http-nio-8082-exec-1] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:19:202 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:19:202 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:19:203 DEBUG 14888 --- [http-nio-8082-exec-1] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:26:371  INFO 14888 --- [http-nio-8082-exec-2] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:26:373 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:26:373 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:26:374 DEBUG 14888 --- [http-nio-8082-exec-2] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:26:380  INFO 14888 --- [http-nio-8082-exec-4] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:26:381 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:26:381 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:26:382 DEBUG 14888 --- [http-nio-8082-exec-4] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:29:901  INFO 14888 --- [http-nio-8082-exec-3] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:29:902 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:29:903 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:29:903 DEBUG 14888 --- [http-nio-8082-exec-3] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
+16:17:29:911  INFO 14888 --- [http-nio-8082-exec-5] com.yu.cart.controller.CartController    : 查询用户36的购物车列表
+16:17:29:912 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+16:17:29:912 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : ==> Parameters: 36(Long)
+16:17:29:914 DEBUG 14888 --- [http-nio-8082-exec-5] c.yu.cart.mapper.CartMapper.selectList   : <==      Total: 0
