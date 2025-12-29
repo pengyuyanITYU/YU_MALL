@@ -12,9 +12,12 @@ import lombok.EqualsAndHashCode;
 public class ItemPageQuery extends PageQuery {
     @ApiModelProperty(name = "搜索关键字")
     private String name;
+    @ApiModelProperty(name = "商品分类")
     private String category;
-    @ApiModelProperty(name = "商品品牌")
-    private String brand;
+//    @ApiModelProperty(name = "商品品牌")
+//    private String brand
+    @ApiModelProperty(name = "商品销量")
+    private String sold;
     @ApiModelProperty(name = "价格最小值")
     private Integer minPrice;
     @ApiModelProperty(name = "价格最大值")

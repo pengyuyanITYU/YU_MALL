@@ -1,14 +1,19 @@
 package com.yu.item.service.impl;
 
 import cn.hutool.core.util.StrUtil;
+import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.yu.api.client.OrderClient;
 import com.yu.common.constant.HttpStatus;
 import com.yu.common.domain.page.TableDataInfo;
+import com.yu.common.exception.BusinessException;
 import com.yu.common.utils.BeanUtils;
 import com.yu.common.utils.CollUtils;
+import com.yu.common.utils.UserContext;
+import com.yu.item.domain.dto.OrderDetailDTO;
 import com.yu.item.domain.po.Item;
 import com.yu.item.domain.po.ItemDetail;
 import com.yu.item.domain.po.ItemSku;
@@ -21,6 +26,8 @@ import com.yu.item.service.IItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.awt.*;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -34,19 +41,56 @@ public class ItemServiceImpl extends  ServiceImpl<ItemMapper, Item> implements I
     private final ItemMapper itemMapper;
     private final ItemDetailMapper itemDetailMapper;
     private final ItemSkuMapper itemSkuMapper;
+    private final OrderClient orderClient;
 
+    @Override
+    public void updateStockAndSold(List<OrderDetailDTO>  orderDetailDTOList) {
+        List<Item> items = new ArrayList<>();
+        Long user = UserContext.getUser();
+        orderDetailDTOList.forEach(orderDetailDTO -> {
+            Item item = lambdaQuery().eq(Item::getId, orderDetailDTO.getItemId())
+                    .eq(Item::getStatus, 1)
+                    .one();
+            if (item != null) {
+                item.setSold(item.getSold() + orderDetailDTO.getNum());
+                item.setStock(item.getStock() - orderDetailDTO.getNum());
+                items.add(item);
+            }
+        });
+        boolean b = updateBatchById(items);
+        if (!b) {
+            log.error("更新库存失败");
+            throw new BusinessException("更新库存失败");
+        }
+    }
 
     @Override
     public TableDataInfo listItem(ItemPageQuery itemPageQuery) {
         Page<Item> p = new Page<>(itemPageQuery.getPageNo(), itemPageQuery.getPageSize());
+        OrderItem orderItem = new OrderItem();
+        OrderItem orderItem1 = new OrderItem();
+        if (itemPageQuery.getSortBy() != null){
+            orderItem.setColumn(itemPageQuery.getSortBy());
+        }else{
+            orderItem.setColumn("create_time");
+        }
+        if(itemPageQuery.getIsAsc() !=  null){
+            orderItem.setAsc(itemPageQuery.getIsAsc());
+        }else{
+            orderItem.setAsc(false);
+        }
+        if(StrUtil.isNotBlank(itemPageQuery.getSold())){
+            orderItem1.setColumn("sold");
+            orderItem1.setAsc(false);
+            p.addOrder(orderItem1);
+        }
+        p.addOrder(orderItem);
         Page<Item> result = lambdaQuery().eq(Item::getStatus, 1)
 
                 .like(StrUtil.isNotBlank(itemPageQuery.getName()), Item::getName, itemPageQuery.getName())
-                .eq(StrUtil.isNotBlank(itemPageQuery.getCategory()), Item::getCategory, itemPageQuery.getCategory())
-                .eq(StrUtil.isNotBlank(itemPageQuery.getBrand()), Item::getBrand, itemPageQuery.getBrand())
                 .ge(itemPageQuery.getMinPrice() != null, Item::getPrice, itemPageQuery.getMinPrice())
                 .le(itemPageQuery.getMaxPrice() != null, Item::getPrice, itemPageQuery.getMaxPrice())
-                .orderByDesc(Item::getUpdateTime)
+                .eq(StrUtil.isNotBlank(itemPageQuery.getCategory()), Item::getCategory, itemPageQuery.getCategory())
                 .page(p);
         TableDataInfo tableDataInfo = new TableDataInfo();
         tableDataInfo.setCode(HttpStatus.SUCCESS);
@@ -54,6 +98,7 @@ public class ItemServiceImpl extends  ServiceImpl<ItemMapper, Item> implements I
         tableDataInfo.setRows(result.getRecords());
         tableDataInfo.setTotal(result.getTotal());
         return tableDataInfo;}
+
 
 
     @Override

@@ -22,9 +22,9 @@ public class JwtTool {
     }
 
     public  String  createToken(Long userId, Duration ttl) {
-
+        String jid = UUID.randomUUID().toString();
         return JWT.create()
-
+                .setJWTId(jid)
                 .setPayload("user", userId)
                 .setExpiresAt(new Date(System.currentTimeMillis() + ttl.toMillis()))
                 .setSigner(jwtSigner)

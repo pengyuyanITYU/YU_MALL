@@ -18,6 +18,7 @@ import com.yu.order.service.IOrderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.internal.util.stereotypes.Lazy;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -40,6 +41,8 @@ public class OrderDetailServiceImpl extends ServiceImpl<OrderDetailMapper, Order
     @Autowired
     @Lazy
     private  IOrderService orderService;
+
+    private final RabbitTemplate rabbitTemplate;
 
     @Override
     public List<OrderDetailVO> getByOrderId(Long id) {
@@ -67,6 +70,7 @@ public class OrderDetailServiceImpl extends ServiceImpl<OrderDetailMapper, Order
     @Override
     public boolean addOrderDetails(@Valid @NotEmpty(message = "订单商品不能为空") List<OrderDetailDTO>  orderDetailDTOList, Long orderId) {
         log.info("开始添加订单{}的详情", orderDetailDTOList);
+
         List<OrderDetail> orderDetailList = orderDetailDTOList.stream().map(orderDetailDTO -> {
             AjaxResult<ItemDetailVO> itemData = itemClient.getItemById(orderDetailDTO.getItemId());
             if (!itemData.isSuccess()) {
@@ -82,6 +86,7 @@ public class OrderDetailServiceImpl extends ServiceImpl<OrderDetailMapper, Order
                     .setSpec(orderDetailDTO.getSpecs())
                     .setImage(orderDetailDTO.getImage())
                     .setPrice(orderDetailDTO.getPrice());
+
             return orderDetail;
         }).collect(Collectors.toList());
         boolean result = saveBatch(orderDetailList);
@@ -89,6 +94,7 @@ public class OrderDetailServiceImpl extends ServiceImpl<OrderDetailMapper, Order
             log.error("添加订单{}的详情失败", orderDetailList);
             throw new RuntimeException("添加订单详情失败");
         }
+        rabbitTemplate.convertAndSend("order-item-service.direct","item-sold", orderDetailDTOList);
         log.info("添加订单{}的详情成功", orderDetailList);
         return result;
     }
