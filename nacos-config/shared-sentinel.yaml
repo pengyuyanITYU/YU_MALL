@@ -1,0 +1,31 @@
+# ============================================================
+# 共享 Sentinel 配置 - shared-sentinel.yaml
+# Nacos Data ID: shared-sentinel.yaml
+# Nacos Group: DEFAULT_GROUP
+# 引用此配置的服务: order-service, pay-service, product-service,
+#                   user-center-service
+# ============================================================
+
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: ${SENTINEL_DASHBOARD_HOST:192.168.100.128}:${SENTINEL_DASHBOARD_PORT:8080}
+        port: 8719
+      eager: true
+      # Sentinel 数据源 - 从 Nacos 加载限流规则
+      datasource:
+        flow:
+          nacos:
+            server-addr: ${NACOS_HOST:192.168.100.128}:${NACOS_PORT:8848}
+            namespace: yu-mall
+            group-id: DEFAULT_GROUP
+            data-id: sentinel-flow-rules
+            rule-type: flow
+        degrade:
+          nacos:
+            server-addr: ${NACOS_HOST:192.168.100.128}:${NACOS_PORT:8848}
+            namespace: yu-mall
+            group-id: DEFAULT_GROUP
+            data-id: sentinel-degrade-rules
+            rule-type: degrade

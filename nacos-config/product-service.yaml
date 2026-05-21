@@ -1,0 +1,32 @@
+# ============================================================
+# 商品服务专属配置 - product-service.yaml
+# Nacos Data ID: product-service.yaml
+# Nacos Group: DEFAULT_GROUP
+# 服务名: yu-mall-product-service
+# 端口: 8082
+# ============================================================
+
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:192.168.100.128}:${MYSQL_PORT:3306}/mall-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+
+  # Redis 配置
+  data:
+    redis:
+      host: ${REDIS_HOST:192.168.100.128}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      database: 1
+
+  # 文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+# RabbitMQ 队列/交换机/路由键说明（均在 Java 代码中通过注解声明，此处仅记录）:
+# 发送:
+#   search-item-service.topic / item.upsert        → search-service (搜索索引同步)
+#   search-item-service.topic / item.delete        → search-service (搜索索引删除)
+# 接收:
+#   item-service-sold.queue (order-item-service.direct, key=item-sold)

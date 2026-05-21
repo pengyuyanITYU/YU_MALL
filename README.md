@@ -104,7 +104,7 @@ admin  user-center   product      order       pay           ai
 
 常见默认地址（以各服务配置和 Nacos 实际内容为准）：
 
-- Nacos：`192.168.100.128:8848`
+- Nacos：`192.168.100.128:8848
 - Redis：`192.168.100.128:6379`
 
 ## 快速开始

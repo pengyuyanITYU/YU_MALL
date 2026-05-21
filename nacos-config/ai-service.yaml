@@ -1,0 +1,24 @@
+# ============================================================
+# AI 服务专属配置 - ai-service.yaml
+# Nacos Data ID: ai-service.yaml
+# Nacos Group: DEFAULT_GROUP
+# 服务名: yu-mall-ai-service
+# 端口: 8092
+# ============================================================
+
+spring:
+  ai:
+    openai:
+      base-url: ${AI_OPENAI_BASE_URL:https://dashscope.aliyuncs.com/compatible-mode}
+      api-key: ${AI_OPENAI_API_KEY:sk-local-placeholder}
+      chat:
+        options:
+          model: ${AI_DEFAULT_MODEL:qwen-plus}
+          temperature: 0.7
+
+# AI 自定义配置 - YuAiProperties
+yu:
+  ai:
+    default-model: ${AI_DEFAULT_MODEL:qwen-plus}
+    system-prompt: ${AI_SYSTEM_PROMPT:你是鱼商城的AI客服助手，请帮助用户解答关于商品、订单、支付等方面的问题。}
+    default-temperature: 0.7

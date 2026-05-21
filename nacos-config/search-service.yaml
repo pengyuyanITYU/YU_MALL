@@ -1,0 +1,23 @@
+# ============================================================
+# 搜索服务专属配置 - search-service.yaml
+# Nacos Data ID: search-service.yaml
+# Nacos Group: DEFAULT_GROUP
+# 服务名: yu-mall-search-service
+# 端口: 8087
+# ============================================================
+
+spring:
+  elasticsearch:
+    uris: ${SEARCH_ELASTICSEARCH_URIS:http://192.168.100.128:9200}
+    connection-timeout: 5s
+    socket-timeout: 30s
+
+# RabbitMQ 队列/交换机/路由键说明（均在 Java 代码中通过注解声明，此处仅记录）:
+# 接收:
+#   search-service-sync.queue (search-item-service.topic, key=item.upsert/item.delete)
+
+# 搜索自定义配置 - SearchProperties
+yu:
+  search:
+    index-name: mall_item_search
+    rebuild-page-size: 200

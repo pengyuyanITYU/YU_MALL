@@ -1,0 +1,42 @@
+# ============================================================
+# 网关服务专属配置 - gateway-service.yaml
+# Nacos Data ID: gateway-service.yaml
+# Nacos Group: DEFAULT_GROUP
+# 服务名: yu-mall-gateway-service
+# 端口: 8080
+# ============================================================
+
+# JWT 配置 + 认证配置
+yu:
+  jwt:
+    location: classpath:/jwt.jks
+    password: ${JWT_KEYSTORE_PASSWORD:yumall}
+    alias: ${JWT_KEY_ALIAS:yumall}
+    token-ttl: 1d
+  auth:
+    include-paths:
+      - /items/**
+      - /shops/**
+      - /carts/**
+      - /orders/**
+      - /pay-orders/**
+      - /addresses/**
+      - /members/**
+      - /collects/**
+      - /comments/**
+      - /ai/**
+      - /admin/**
+      - /admins/**
+      - /upload/**
+    exclude-paths:
+      - /users/login
+      - /users/register
+      - /users/phone
+      - /search/**
+      - /items
+      - /items/page
+      - /items/detail/**
+      - /shops
+      - /shops/page
+      - /shops/detail/**
+      - /admins/login

@@ -1,0 +1,23 @@
+# ============================================================
+# 共享日志配置 - shared-log.yaml
+# Nacos Data ID: shared-log.yaml
+# Nacos Group: DEFAULT_GROUP
+# 引用此配置的服务: 所有服务
+# ============================================================
+
+logging:
+  level:
+    root: info
+    com.yu: debug
+    com.baomidou.mybatisplus: debug
+    com.yu.api.client: debug
+    io.seata: info
+    com.alibaba.nacos: warn
+  pattern:
+    dateformat: yyyy-MM-dd HH:mm:ss.SSS
+  logback:
+    rollingpolicy:
+      max-file-size: 50MB
+      max-history: 30
+      total-size-cap: 1GB
+      file-name-pattern: "${LOG_FILE:-logs/app}.%d{yyyy-MM-dd}.%i.log.gz"

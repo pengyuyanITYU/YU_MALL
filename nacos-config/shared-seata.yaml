@@ -1,0 +1,36 @@
+# ============================================================
+# 共享 Seata 配置 - shared-seata.yaml
+# Nacos Data ID: shared-seata.yaml
+# Nacos Group: DEFAULT_GROUP
+# 引用此配置的服务: order-service, pay-service, product-service,
+#                   user-center-service, admin-service
+# Seata 模式: AT 模式 + Nacos 注册
+# ============================================================
+
+seata:
+  enabled: true
+  application-id: yu-mall
+  tx-service-group: yu-mall-tx-group
+  service:
+    vgroup-mapping:
+      yu-mall-tx-group: default
+    enable-degrade: false
+    disable-global-transaction: false
+  registry:
+    type: nacos
+    nacos:
+      server-addr: ${NACOS_HOST:192.168.100.128}:${NACOS_PORT:8848}
+      namespace: yu-mall
+      group: DEFAULT_GROUP
+      application: seata-server
+      cluster: default
+      username: ${NACOS_USERNAME:nacos}
+      password: ${NACOS_PASSWORD:nacos}
+  config:
+    type: nacos
+    nacos:
+      server-addr: ${NACOS_HOST:192.168.100.128}:${NACOS_PORT:8848}
+      namespace: yu-mall
+      group: DEFAULT_GROUP
+      username: ${NACOS_USERNAME:nacos}
+      password: ${NACOS_PASSWORD:nacos}

@@ -1,7 +1,0 @@
-feign:
-  okhttp:
-    enabled: true
-    connection-timeout: 2000
-    read-timeout: 5000
-  sentinel:
-    enabled: true

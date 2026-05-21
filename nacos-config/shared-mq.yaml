@@ -1,0 +1,27 @@
+# ============================================================
+# 共享 RabbitMQ 配置 - shared-mq.yaml
+# Nacos Data ID: shared-mq.yaml
+# Nacos Group: DEFAULT_GROUP
+# 引用此配置的服务: order-service, pay-service, product-service,
+#                   user-center-service, search-service
+# ============================================================
+
+spring:
+  rabbitmq:
+    host: ${RABBITMQ_HOST:192.168.100.128}
+    port: ${RABBITMQ_PORT:5672}
+    virtual-host: ${RABBITMQ_VHOST:/yu-mall}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
+    listener:
+      simple:
+        acknowledge-mode: auto
+        prefetch: 10
+        retry:
+          enabled: true
+          max-attempts: 3
+          initial-interval: 1000ms
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
